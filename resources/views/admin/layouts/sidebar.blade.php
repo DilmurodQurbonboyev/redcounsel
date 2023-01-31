@@ -1,8 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary">
     <a class="brand-link">
-        <img src="{{ asset('img/Сгруппировать 11179.png') }}" alt="logo">
+        <img src="{{ asset('img/gerb.png') }}" alt="logo">
         <span class="brand-text">
-            {{ MessageService::tr("Municipality of Jizzakh region") }}
+            {{ MessageService::tr("Red Counsel") }}
         </span>
     </a>
     <div class="sidebar">

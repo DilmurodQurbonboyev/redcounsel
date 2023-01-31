@@ -42,27 +42,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function userData()
-    {
-        return $this->hasOne(UserData::class, 'userid');
-    }
-
     public function userRoleLink()
     {
         return $this->belongsToMany(Authority::class, 'user_role_links');
-    }
-
-    public static function create
-    (
-        $name,
-        $email,
-        $password
-    )
-    {
-        $user = new static();
-        $user->name = $name;
-        $user->email = $email;
-        $user->password = $password;
-        return $user;
     }
 }

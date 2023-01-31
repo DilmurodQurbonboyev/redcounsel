@@ -48,12 +48,12 @@ Route::prefix(LaravelLocalization::setLocale())
         'localeSessionRedirect',
         'localizationRedirect',
         'localeViewPath',
-        'frameGuard'
     ])
     ->group(function () {
 
         Auth::routes([
-            'register' => false,
+            'login' => true,
+            'register' => true,
             'reset' => false,
             'verify' => false,
         ]);

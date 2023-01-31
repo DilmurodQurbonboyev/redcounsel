@@ -2,10 +2,9 @@
 
 namespace App\Http\Livewire;
 
-use Illuminate\Support\Facades\DB;
 use Livewire\Component;
-use App\Models\UserData;
 use Livewire\WithPagination;
+use Illuminate\Support\Facades\DB;
 
 
 class User extends Component
@@ -15,7 +14,6 @@ class User extends Component
 
     public $searchId,
         $searchUsername,
-        $searchFullname,
         $searchAuthority;
 
     public $perPage = 20;
@@ -31,12 +29,6 @@ class User extends Component
 
         $query->when($this->searchUsername != "", function ($q) {
             return $q->where(DB::raw('lower(name)'), 'like', '%' . strtolower($this->searchUsername) . '%');
-        });
-
-        $query->when(true, function ($q) {
-            $q->whereHas('userdata', function($userData) {
-                $userData->where('full_name', 'like', '%' . $this->searchFullname . '%');
-            });
         });
 
         $users = $query->paginate($this->perPage);

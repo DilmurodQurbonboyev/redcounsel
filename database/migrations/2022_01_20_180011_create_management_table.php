@@ -19,7 +19,6 @@ class CreateManagementTable extends Migration
             $table->integer('m_category_id')->constrained()->onDelete('cascade');
             $table->string('slug')->nullable();
             $table->string('image')->nullable();
-            $table->integer('region_id')->constrained()->on('regions')->onDelete('cascade')->nullable();
             $table->string('anons_image')->nullable();
             $table->string('phone')->nullable();
             $table->string('email')->nullable();

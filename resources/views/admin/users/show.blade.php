@@ -32,12 +32,6 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#oneid" data-toggle="tab" role="tab" aria-controls="oneid"
-                    aria-selected="false">
-                    {{ MessageService::tr('User OneId data') }}
-                </a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="#w2-tab2" data-toggle="tab" role="tab" aria-controls="w2-tab2"
                     aria-selected="true">
                     {{ MessageService::tr('Roles') }}
@@ -53,12 +47,12 @@
                             <td>{{ $users->id }}</td>
                         </tr>
                         <tr>
-                            <th>{{ MessageService::tr('Username') }}</th>
-                            <td>{{ $users->userData->user_id }}</td>
+                            <th>{{ MessageService::tr('Name') }}</td>
+                            <td>{{ $users->name ?? '' }}</td>
                         </tr>
                         <tr>
                             <th>{{ MessageService::tr('Email') }}</th>
-                            <td>{{ $users->userData->email }}</td>
+                            <td>{{ $users->email ?? '' }}</td>
                         </tr>
                         <tr>
                             <th>{{ MessageService::tr('Created At') }}</th>
@@ -67,92 +61,6 @@
                         <tr>
                             <th>{{ MessageService::tr('Updated At') }}</th>
                             <td>{{ $users->updated_at }}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div id="oneid" class="tab-pane"><br>
-                <table id="w1" class="table table-striped table-bordered detail-view">
-                    <tbody>
-                        <tr>
-                            <th>{{ MessageService::tr('Id') }}</th>
-                            <td>{{ $users->id }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('User Id') }}</th>
-                            <td>{{ $users->userData->userid }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('First Name') }}</th>
-                            <td>{{ $users->userData->first_name }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Last name') }}</th>
-                            <td>{{ $users->userData->sur_name }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Middle name') }}</th>
-                            <td>{{ $users->userData->mid_name ?? '' }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Full name') }}</th>
-                            <td>{{ $users->userData->full_name }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Birth') }}</th>
-                            <td>{{ $users->userData->birth_date }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Gender') }}</th>
-                            <td>{{ $users->userData->gd }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Email') }}</th>
-                            <td>{{ $users->userData->email }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Phone') }}</th>
-                            <td>{{ $users->userData->mob_phone_no }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Pinfl') }}</th>
-                            <td>{{ $users->userData->pin }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Passport Number') }}</th>
-                            <td>{{ $users->userData->pport_no }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{tr('Passport Issue Date')}}</th>
-                            <td>{{ $users->userData->pport_issue_date }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Passport Expiration Date') }}</th>
-                            <td>{{ $users->userData->pport_issue_date }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Passport Issue Place') }}</th>
-                            <td>{{ $users->userData->pport_issue_place }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Citizen') }}</th>
-                            <td>{{ $users->userData->ctzn }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Place of birth') }}</th>
-                            <td>{{ $users->userData->birth_place }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Address') }}</th>
-                            <td>{{ $users->userData->per_adr }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Created At') }}</th>
-                            <td>{{ $users->userData->created_at }}</td>
-                        </tr>
-                        <tr>
-                            <th>{{ MessageService::tr('Updated At') }}</th>
-                            <td>{{ $users->userData->updated_at }}</td>
                         </tr>
                     </tbody>
                 </table>

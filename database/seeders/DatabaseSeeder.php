@@ -35,28 +35,26 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(UserSeeder::class);
-        $this->call(UserDataSeeder::class);
         $this->call(AuthoritySeeder::class);
         $this->call(AuthorityTranslationSeeder::class);
         $this->call(UserRoleLinkSeeder::class);
-        $this->call(ListTypeSeeder::class);
-        $this->call(ListFileSeeder::class);
-        $this->call(ContactSeeder::class);
-        $this->call(ContactTranslationSeeder::class);
-        $this->call(RegionSeeder::class);
-        $this->call(MenusCategorySeeder::class);
-        $this->call(MenusCategoryTranslationSeeder::class);
-        $this->call(ListCategorySeeder::class);
-        $this->call(ListCategoryTranslationSeeder::class);
-        $this->call(MCategorySeeder::class);
-        $this->call(MCategoryTranslationSeeder::class);
-        $this->call(MenuSeeder::class);
-        $this->call(MenuTranslationSeeder::class);
-        $this->call(MessageSeeder::class);
-        $this->call(MessageTranslationSeeder::class);
-        $this->call(ListSeeder::class);
-        $this->call(ListsTranslationSeeder::class);
-        $this->call(ManagementSeeder::class);
-        $this->call(ManagementTranslationSeeder::class);
+//        $this->call(ListTypeSeeder::class);
+//        $this->call(ContactSeeder::class);
+//        $this->call(ContactTranslationSeeder::class);
+//        $this->call(RegionSeeder::class);
+//        $this->call(MenusCategorySeeder::class);
+//        $this->call(MenusCategoryTranslationSeeder::class);
+//        $this->call(ListCategorySeeder::class);
+//        $this->call(ListCategoryTranslationSeeder::class);
+//        $this->call(MCategorySeeder::class);
+//        $this->call(MCategoryTranslationSeeder::class);
+//        $this->call(MenuSeeder::class);
+//        $this->call(MenuTranslationSeeder::class);
+//        $this->call(MessageSeeder::class);
+//        $this->call(MessageTranslationSeeder::class);
+//        $this->call(ListSeeder::class);
+//        $this->call(ListsTranslationSeeder::class);
+//        $this->call(ManagementSeeder::class);
+//        $this->call(ManagementTranslationSeeder::class);
     }
 }

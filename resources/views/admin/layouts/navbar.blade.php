@@ -78,9 +78,8 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <li class="user-header">
-                        <div class="user-avatar" data-label="{{ substr(auth()->user()->userData->first_name, 0, 1) }}{{ substr(auth()->user()->userData->sur_name, 0, 1) }}"></div>
                         <p>
-                            <b>{{ Str::ucfirst(auth()->user()->name) }}</b>
+                            <img src="{{ asset('img/noImage.jpg') }}" width="50%" alt="">
                         </p>
                     </li>
                     <li class="user-footer">

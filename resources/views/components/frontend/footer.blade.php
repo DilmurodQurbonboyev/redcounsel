@@ -1,23 +1,30 @@
 <footer>
     <div class="footer-one" data-aos="zoom-in-up">
         <div class="footer-logo">
-            <a href="./home.html">Red Counsel</a>
+            <a href="/">{{ tr('Red Counsel') }}</a>
         </div>
         <div class="footer-links">
-            <a href="./home.html" class="homeFooter">Home</a>
-            <a href="./about.html" class="aboutFooter">About Us</a>
-            <div class="footer-drop dropdown dropella">
-                <button class="dropbtn knopka">Dropdown</button>
-                <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
-
-                    <a  href="./videoGalery.html">Video galery</a>
-                    <a class="news" href="./news.html">News & Deals</a>
-                </div>
-            </div>
-            <a href="./team.html" class="teamFooter">Team</a>
-            <a href="./expertise.html" class="expertiseFooter">Expertise</a>
-            <a href="./international.html" class="internationalFooter">International</a>
-            <a href="./contact.html" >Contact Us</a>
+            @foreach($top_menu_tree as $menu)
+                @if (!isset($menu['submenus']))
+                    <a href="{{ hrefType($menu['link_type'], $menu['link']) }}"
+                       target="{{ targetType($menu['link_type']) }}">{{ $menu['title'] ?? '' }}</a>
+                @endif
+                @if (isset($menu['submenus']))
+                    <div class="footer-drop dropdown dropella">
+                        <button class="dropbtn knopka">
+                            {{ $menu['title'] ?? '' }}
+                        </button>
+                        <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
+                            @foreach ($menu['submenus'] as $item)
+                                @if (!isset($item['submenus']))
+                                    <a href="{{ hrefType($item['link_type'], $item['link']) }}"
+                                       target="{{ targetType($item['link_type']) }}">{{ $item['title'] ?? '' }}</a>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
+                @endif
+            @endforeach
         </div>
         <div class="contact">
             <div id="call">

@@ -6,14 +6,13 @@ use Illuminate\View\Component;
 
 class Footer extends Component
 {
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
+    public $top_menu;
+    public $top_menu_tree;
+
     public function __construct()
     {
-        //
+        $this->top_menu = \App\Models\Menu::getMenuItems(1);
+        $this->top_menu_tree = \App\Models\Menu::buildTree($this->top_menu->toArray());
     }
 
     /**

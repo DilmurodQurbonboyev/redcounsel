@@ -30,7 +30,6 @@ class Management extends Model implements TranslatableContract
         'm_category_id',
         'slug',
         'image',
-        'region_id',
         'anons_image',
         'phone',
         'email',
