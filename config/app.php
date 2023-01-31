@@ -4,6 +4,36 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Database config
+    |--------------------------------------------------------------------------
+    |
+    | These variables are the links to redirect your project
+    |
+    */
+
+    'db_host' => env('DB_HOST', ''),
+    'db_port' => env('DB_PORT', ''),
+    'db_database' => env('DB_DATABASE', ''),
+    'db_username' => env('DB_USERNAME', ''),
+    'db_password' => env('DB_PASSWORD', ''),
+
+    /*
+    |--------------------------------------------------------------------------
+    | OneId Integration
+    |--------------------------------------------------------------------------
+    |
+    | These variables are the links to redirect your project
+    |
+    */
+
+    'redirect_home' => env('REDIRECT_HOME'),
+    'redirect_admin' => env('REDIRECT_ADMIN'),
+    'oneId_client_id' => env('ONEID_CLIENT_ID'),
+    'oneId_client_secret' => env('ONEID_CLIENT_SECRET'),
+
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Name
     |--------------------------------------------------------------------------
     |
@@ -67,7 +97,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Tashkent',
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +110,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'uz',
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +123,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'uz',
 
     /*
     |--------------------------------------------------------------------------
@@ -165,7 +195,8 @@ return [
         /*
          * Package Service Providers...
          */
-
+        UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -174,6 +205,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        \App\Providers\RepositoryServiceProvider::class,
 
     ],
 
@@ -229,6 +261,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Image' => Intervention\Image\Facades\Image::class,
+        'MessageService' => App\Services\MessageService::class,
 
     ],
 

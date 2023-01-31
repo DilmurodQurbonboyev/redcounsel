@@ -1,0 +1,81 @@
+:root{
+    --main: #111;
+    --back: #eee;
+}
+
+.about-bg{
+    background-image: url('../images/image7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%);
+    height: 50vh;
+}
+.about-overview{
+    text-align: center;
+    padding: 2rem 20%;
+}
+.about-overview h1{
+    font-size: 4rem;
+}
+.about-overview p{
+    margin: 4rem 0 6rem;
+    font-style: italic;
+    opacity: .6;
+}
+#overview{
+    height: 100vh;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#overview img{
+    min-width: 500px;
+    max-width: 600px;
+}
+#overview .over-text{
+    margin-left: 6rem;
+    min-width: 300px;
+    max-width: 400px;
+}
+#overview .over-text h1{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+#overview .over-text p{
+    opacity: .5;
+}
+#overview.one, #overview.three{
+    background-color: var(--main);
+    color: var(--back);
+}
+#overview.two{
+    background-color: var(--back);
+    color: var(--main);
+}
+.ourTeam{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    z-index: 4;
+}
+.ourTeam h2{
+    padding: 10px;
+    font-size: 35px;
+}
+.ourTeam p{
+    padding: 10px;
+    font-size: 15px;
+}
+.ourTeam a{
+ color: white;
+ text-decoration: none;
+ padding-right: 10px;
+ 
+}
+.ourTeam a:hover{
+    color: white;
+}

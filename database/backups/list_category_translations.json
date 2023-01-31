@@ -1,0 +1,626 @@
+[
+    {
+        "id": 1,
+        "list_category_id": 1,
+        "title": "Yangiliklar",
+        "locale": "oz"
+    },
+    {
+        "id": 2,
+        "list_category_id": 1,
+        "title": "Янгиликлар",
+        "locale": "uz"
+    },
+    {
+        "id": 3,
+        "list_category_id": 1,
+        "title": "Новости",
+        "locale": "ru"
+    },
+    {
+        "id": 4,
+        "list_category_id": 1,
+        "title": "News",
+        "locale": "en"
+    },
+    {
+        "id": 5,
+        "list_category_id": 2,
+        "title": "O'zbekiston",
+        "locale": "oz"
+    },
+    {
+        "id": 6,
+        "list_category_id": 2,
+        "title": "Ўзбекистон",
+        "locale": "uz"
+    },
+    {
+        "id": 7,
+        "list_category_id": 2,
+        "title": "Узбекистан",
+        "locale": "ru"
+    },
+    {
+        "id": 8,
+        "list_category_id": 2,
+        "title": "Uzbekistan",
+        "locale": "en"
+    },
+    {
+        "id": 9,
+        "list_category_id": 3,
+        "title": "Iqtisodiyot",
+        "locale": "oz"
+    },
+    {
+        "id": 10,
+        "list_category_id": 3,
+        "title": "Иқтисодиёт",
+        "locale": "uz"
+    },
+    {
+        "id": 11,
+        "list_category_id": 3,
+        "title": "Экономика",
+        "locale": "ru"
+    },
+    {
+        "id": 12,
+        "list_category_id": 3,
+        "title": "Economy",
+        "locale": "en"
+    },
+    {
+        "id": 13,
+        "list_category_id": 4,
+        "title": "Sport",
+        "locale": "oz"
+    },
+    {
+        "id": 14,
+        "list_category_id": 4,
+        "title": "Спорт",
+        "locale": "uz"
+    },
+    {
+        "id": 15,
+        "list_category_id": 4,
+        "title": "Спорт",
+        "locale": "ru"
+    },
+    {
+        "id": 16,
+        "list_category_id": 4,
+        "title": "Sport",
+        "locale": "en"
+    },
+    {
+        "id": 17,
+        "list_category_id": 5,
+        "title": "Ijtimoiy tarmoqlar",
+        "locale": "oz"
+    },
+    {
+        "id": 18,
+        "list_category_id": 5,
+        "title": "Ижтимоий тармоқлар",
+        "locale": "uz"
+    },
+    {
+        "id": 19,
+        "list_category_id": 5,
+        "title": "Социальные сети",
+        "locale": "ru"
+    },
+    {
+        "id": 20,
+        "list_category_id": 5,
+        "title": "Social networks",
+        "locale": "en"
+    },
+    {
+        "id": 21,
+        "list_category_id": 6,
+        "title": "Fotogalereya",
+        "locale": "oz"
+    },
+    {
+        "id": 22,
+        "list_category_id": 6,
+        "title": "Фотогалерея",
+        "locale": "uz"
+    },
+    {
+        "id": 23,
+        "list_category_id": 6,
+        "title": "Фотогалерея",
+        "locale": "ru"
+    },
+    {
+        "id": 24,
+        "list_category_id": 6,
+        "title": "Photogallery",
+        "locale": "en"
+    },
+    {
+        "id": 25,
+        "list_category_id": 7,
+        "title": "Videogalereya",
+        "locale": "oz"
+    },
+    {
+        "id": 26,
+        "list_category_id": 7,
+        "title": "Видеогалерея",
+        "locale": "uz"
+    },
+    {
+        "id": 27,
+        "list_category_id": 7,
+        "title": "Видеогалерея",
+        "locale": "ru"
+    },
+    {
+        "id": 28,
+        "list_category_id": 7,
+        "title": "Videogallery",
+        "locale": "en"
+    },
+    {
+        "id": 29,
+        "list_category_id": 8,
+        "title": "Foydali havolalar",
+        "locale": "oz"
+    },
+    {
+        "id": 30,
+        "list_category_id": 8,
+        "title": "Фойдали ҳаволалар",
+        "locale": "uz"
+    },
+    {
+        "id": 31,
+        "list_category_id": 8,
+        "title": "Полезные ссылки",
+        "locale": "ru"
+    },
+    {
+        "id": 32,
+        "list_category_id": 8,
+        "title": "Useful links",
+        "locale": "en"
+    },
+    {
+        "id": 33,
+        "list_category_id": 9,
+        "title": "Sayt xaritasi",
+        "locale": "oz"
+    },
+    {
+        "id": 34,
+        "list_category_id": 9,
+        "title": "Сайт харитаси",
+        "locale": "uz"
+    },
+    {
+        "id": 35,
+        "list_category_id": 9,
+        "title": "Карта сайта",
+        "locale": "ru"
+    },
+    {
+        "id": 36,
+        "list_category_id": 9,
+        "title": "Site Map",
+        "locale": "en"
+    },
+    {
+        "id": 37,
+        "list_category_id": 10,
+        "title": "Jizzax viloyati",
+        "locale": "oz"
+    },
+    {
+        "id": 38,
+        "list_category_id": 10,
+        "title": "Жиззах вилояти",
+        "locale": "uz"
+    },
+    {
+        "id": 39,
+        "list_category_id": 10,
+        "title": "Джизакская область",
+        "locale": "ru"
+    },
+    {
+        "id": 40,
+        "list_category_id": 10,
+        "title": "Jizzakh region",
+        "locale": "en"
+    },
+    {
+        "id": 41,
+        "list_category_id": 11,
+        "title": "Shaharlar va tumanlar",
+        "locale": "oz"
+    },
+    {
+        "id": 42,
+        "list_category_id": 11,
+        "title": "Шаҳарлар ва туманлар",
+        "locale": "uz"
+    },
+    {
+        "id": 43,
+        "list_category_id": 11,
+        "title": "Города и районы",
+        "locale": "ru"
+    },
+    {
+        "id": 44,
+        "list_category_id": 11,
+        "title": "Cities and districts",
+        "locale": "en"
+    },
+    {
+        "id": 45,
+        "list_category_id": 12,
+        "title": "Interaktiv xizmatlar",
+        "locale": "oz"
+    },
+    {
+        "id": 46,
+        "list_category_id": 12,
+        "title": "Интерактив хизматлар",
+        "locale": "uz"
+    },
+    {
+        "id": 47,
+        "list_category_id": 12,
+        "title": "Интерактивные услуги",
+        "locale": "ru"
+    },
+    {
+        "id": 48,
+        "list_category_id": 12,
+        "title": "Interactive Services",
+        "locale": "en"
+    },
+    {
+        "id": 49,
+        "list_category_id": 13,
+        "title": "Tender/E'lonlar",
+        "locale": "oz"
+    },
+    {
+        "id": 50,
+        "list_category_id": 13,
+        "title": "Тендер/Эълонлар",
+        "locale": "uz"
+    },
+    {
+        "id": 51,
+        "list_category_id": 13,
+        "title": "Тендер/Обявления",
+        "locale": "ru"
+    },
+    {
+        "id": 52,
+        "list_category_id": 13,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 53,
+        "list_category_id": 14,
+        "title": "Sektorlar faoliyati",
+        "locale": "oz"
+    },
+    {
+        "id": 54,
+        "list_category_id": 14,
+        "title": "Секторлар фаолияти",
+        "locale": "uz"
+    },
+    {
+        "id": 55,
+        "list_category_id": 14,
+        "title": "Деятельность сектора",
+        "locale": "ru"
+    },
+    {
+        "id": 56,
+        "list_category_id": 14,
+        "title": "Sector activities",
+        "locale": "en"
+    },
+    {
+        "id": 57,
+        "list_category_id": 15,
+        "title": "Foydali malumotlar",
+        "locale": "oz"
+    },
+    {
+        "id": 58,
+        "list_category_id": 15,
+        "title": "Фойдали малумотлар",
+        "locale": "uz"
+    },
+    {
+        "id": 59,
+        "list_category_id": 15,
+        "title": "Полезная информация",
+        "locale": "ru"
+    },
+    {
+        "id": 60,
+        "list_category_id": 15,
+        "title": "Useful information",
+        "locale": "en"
+    },
+    {
+        "id": 61,
+        "list_category_id": 16,
+        "title": "Test",
+        "locale": "oz"
+    },
+    {
+        "id": 62,
+        "list_category_id": 16,
+        "title": "Test",
+        "locale": "uz"
+    },
+    {
+        "id": 63,
+        "list_category_id": 16,
+        "title": "Test",
+        "locale": "ru"
+    },
+    {
+        "id": 64,
+        "list_category_id": 16,
+        "title": "Test",
+        "locale": "en"
+    },
+    {
+        "id": 65,
+        "list_category_id": 17,
+        "title": "Tadbirlar",
+        "locale": "oz"
+    },
+    {
+        "id": 66,
+        "list_category_id": 17,
+        "title": "Тадбирлар",
+        "locale": "uz"
+    },
+    {
+        "id": 67,
+        "list_category_id": 17,
+        "title": "События",
+        "locale": "ru"
+    },
+    {
+        "id": 68,
+        "list_category_id": 17,
+        "title": "Events",
+        "locale": "en"
+    },
+    {
+        "id": 69,
+        "list_category_id": 18,
+        "title": "Yil maqomi",
+        "locale": "oz"
+    },
+    {
+        "id": 70,
+        "list_category_id": 18,
+        "title": "Йил мақоми",
+        "locale": "uz"
+    },
+    {
+        "id": 71,
+        "list_category_id": 18,
+        "title": "Статус года",
+        "locale": "ru"
+    },
+    {
+        "id": 72,
+        "list_category_id": 18,
+        "title": "Status of the year",
+        "locale": "en"
+    },
+    {
+        "id": 73,
+        "list_category_id": 19,
+        "title": "Viloyat",
+        "locale": "oz"
+    },
+    {
+        "id": 74,
+        "list_category_id": 19,
+        "title": "Вилоят",
+        "locale": "uz"
+    },
+    {
+        "id": 75,
+        "list_category_id": 19,
+        "title": "Область",
+        "locale": "ru"
+    },
+    {
+        "id": 76,
+        "list_category_id": 19,
+        "title": "Region",
+        "locale": "en"
+    },
+    {
+        "id": 77,
+        "list_category_id": 20,
+        "title": "Hokimlik",
+        "locale": "oz"
+    },
+    {
+        "id": 78,
+        "list_category_id": 20,
+        "title": "Хокимлик",
+        "locale": "uz"
+    },
+    {
+        "id": 79,
+        "list_category_id": 20,
+        "title": "Хакимият",
+        "locale": "ru"
+    },
+    {
+        "id": 80,
+        "list_category_id": 20,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 81,
+        "list_category_id": 21,
+        "title": "Bo'sh ish o'rinlari",
+        "locale": "oz"
+    },
+    {
+        "id": 82,
+        "list_category_id": 21,
+        "title": "Бўш иш ўринлари",
+        "locale": "uz"
+    },
+    {
+        "id": 83,
+        "list_category_id": 21,
+        "title": "Вакансии",
+        "locale": "ru"
+    },
+    {
+        "id": 84,
+        "list_category_id": 21,
+        "title": null,
+        "locale": "en"
+    },
+    {
+        "id": 85,
+        "list_category_id": 22,
+        "title": "Siyosat",
+        "locale": "oz"
+    },
+    {
+        "id": 86,
+        "list_category_id": 22,
+        "title": "Сиёсат",
+        "locale": "uz"
+    },
+    {
+        "id": 87,
+        "list_category_id": 22,
+        "title": "Политика",
+        "locale": "ru"
+    },
+    {
+        "id": 88,
+        "list_category_id": 22,
+        "title": "Politics",
+        "locale": "en"
+    },
+    {
+        "id": 89,
+        "list_category_id": 23,
+        "title": "Yoshlar",
+        "locale": "oz"
+    },
+    {
+        "id": 90,
+        "list_category_id": 23,
+        "title": "Ёшлар",
+        "locale": "uz"
+    },
+    {
+        "id": 91,
+        "list_category_id": 23,
+        "title": "Молодёжь",
+        "locale": "ru"
+    },
+    {
+        "id": 92,
+        "list_category_id": 23,
+        "title": "Youth",
+        "locale": "en"
+    },
+    {
+        "id": 93,
+        "list_category_id": 24,
+        "title": "Korruptsiya",
+        "locale": "oz"
+    },
+    {
+        "id": 94,
+        "list_category_id": 24,
+        "title": "Коррупция",
+        "locale": "uz"
+    },
+    {
+        "id": 95,
+        "list_category_id": 24,
+        "title": "Коррупция",
+        "locale": "ru"
+    },
+    {
+        "id": 96,
+        "list_category_id": 24,
+        "title": "Сorruption",
+        "locale": "en"
+    },
+    {
+        "id": 97,
+        "list_category_id": 25,
+        "title": "Hujjatlar",
+        "locale": "oz"
+    },
+    {
+        "id": 98,
+        "list_category_id": 25,
+        "title": "Ҳужжатлар",
+        "locale": "uz"
+    },
+    {
+        "id": 99,
+        "list_category_id": 25,
+        "title": "Документы",
+        "locale": "ru"
+    },
+    {
+        "id": 100,
+        "list_category_id": 25,
+        "title": "Documents",
+        "locale": "en"
+    },
+    {
+        "id": 101,
+        "list_category_id": 26,
+        "title": "Matbuot xizmati",
+        "locale": "oz"
+    },
+    {
+        "id": 102,
+        "list_category_id": 26,
+        "title": "Матбуот хизмати",
+        "locale": "uz"
+    },
+    {
+        "id": 103,
+        "list_category_id": 26,
+        "title": "Пресс служба",
+        "locale": "ru"
+    },
+    {
+        "id": 104,
+        "list_category_id": 26,
+        "title": "Press center",
+        "locale": "en"
+    }
+]

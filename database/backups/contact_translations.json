@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "contact_id": 1,
+        "address": "130100, Jizzax shahri, Sh.Rashidov shox koʼchasi, 64-uy",
+        "working_time": "Shanba-yakshanba chiqish",
+        "reception": "Dushanba-juma 09:00 - 18:00",
+        "lunch": "13:00 dan - 14:00 gacha",
+        "landmark": "Jizzax davlat pedagogika unversitit",
+        "transport": "Аvtobuslar: 1, 8, 9, 41, 33, 46, 47",
+        "weekend": "Shanba va yakshanba",
+        "press_service": "Jizzax viloyati hokimining matbuot kotibi - axborot siyosati masalalari boʼyicha maslahatchisi",
+        "support": "Jizzax viloyat hokimligi huzuridagi Axborot texnologiyalarini rivojlantirish markazi DUK",
+        "locale": "oz"
+    },
+    {
+        "id": 2,
+        "contact_id": 1,
+        "address": "130100, Жиззах шаҳри, Ш.Рашидов шох кўчаси, 64-уй",
+        "working_time": "Шанба-якшанба чиқиш",
+        "reception": "Душанба-жума 09:00 - 18:00",
+        "lunch": "13:00 дан - 14:00 гача",
+        "landmark": "Жиззах давлат педагогика унверситит",
+        "transport": "Aвтобуслар: 1, 8, 9, 41, 33, 46, 47",
+        "weekend": "Шанба ва якшанба",
+        "press_service": "Жиззах вилояти ҳокимининг матбуот котиби - ахборот сиёсати масалалари бўйича маслаҳатчиси",
+        "support": "Жиззах вилоят ҳокимлиги ҳузуридаги Aхборот технологияларини ривожлантириш маркази ДУК",
+        "locale": "uz"
+    },
+    {
+        "id": 3,
+        "contact_id": 1,
+        "address": "100015, Республика Узбекистан, г. Ташкент, Мирабадский район, ул. Нукусская, д. 22",
+        "working_time": "Суббота-воскресенье выходной",
+        "reception": "Понедельник-пятница 09:00 - 18:00",
+        "lunch": "с 13:00 - до 14:00",
+        "landmark": "Международный Вестминстерский Университет",
+        "transport": "Метро: станция Амира Темура   Автобусы: № 14, 53, 58, 78, 93, 98",
+        "weekend": "Суббота и воскресенье",
+        "press_service": "Отдел по развитию системы электронного правительства, информационнных технологий и связи с общественностью           Тел.: (+99871) 233-99-96",
+        "support": "Отдел по развитию системы электронного правительства, информационнных технологий и связи с общественностью (+998) 233-99-96",
+        "locale": "ru"
+    },
+    {
+        "id": 4,
+        "contact_id": 1,
+        "address": "22, Nukusskaya str., Mirabad district, Tashkent, 100015, Republic of Uzbekistan",
+        "working_time": "Saturday-Sunday weekend",
+        "reception": "Monday-Friday 09:00 - 18:00",
+        "lunch": null,
+        "landmark": null,
+        "transport": null,
+        "weekend": null,
+        "press_service": null,
+        "support": null,
+        "locale": "en"
+    }
+]

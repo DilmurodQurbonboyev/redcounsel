@@ -1,0 +1,55 @@
+:root{
+    --main: #111;
+    --back: #eee;
+}
+#inter{
+    position: relative;
+    /* height: 100vh; */
+}
+#inter::after{
+    content: attr(data-text);
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10rem;
+    opacity: .4;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#inter:first-child, #inter:last-child{
+    background-color: #c0392b;
+    color: #fff;
+}
+#inter:last-child{
+    margin-bottom: 5rem;
+}
+#inter .inter-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+#text{
+    text-align: center;
+}
+#text p{
+    font-style: italic;
+    font-size: 1.6rem;
+    opacity: .7;
+    letter-spacing: 1.4px;
+    padding: 3rem 10%;
+}
+.pagination li{
+    font-size: 1.7rem;
+    
+}
+.pagination{
+   justify-content: center;
+   margin-top: -40px!important;
+}
+.pagination a{
+    color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+}

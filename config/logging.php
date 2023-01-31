@@ -110,7 +110,7 @@ return [
             'handler' => NullHandler::class,
         ],
 
-        'emergency' => [
+        'uzgasoil' => [
             'path' => storage_path('logs/laravel.log'),
         ],
     ],

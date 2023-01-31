@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\Frontend\SiteController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +17,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::middleware('cors')->group(function () {
+    Route::get('menus', [SiteController::class, 'menus']);
+    Route::get('category-list', [SiteController::class, 'categoryList']);
+    Route::get('leader/{slug}', [SiteController::class, 'leader']);
+    Route::get('regions', [SiteController::class, 'regions']);
 });

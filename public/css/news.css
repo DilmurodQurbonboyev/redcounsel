@@ -1,0 +1,122 @@
+:root{
+    --main: #111;
+    --back: #eee;
+}
+.bg-news {
+    background-image: url("https://uktechnews.co.uk/wp-content/uploads/2022/12/shutterstock_666231598-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    filter: brightness(40%);
+    height: 70vh;
+    width: 100%;
+  }
+  .ourTeam{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    z-index: 4;
+  }
+  .ourTeam h2{
+    padding: 10px;
+    font-size: 35px;
+  }
+  .ourTeam p{
+    padding: 10px;
+    font-size: 15px;
+  }
+  .ourTeam a{
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  
+  }
+  .ourTeam a:hover{
+    color: white;
+  }
+  .newsTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgb(221, 221, 250,0.3);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    color: rgb(182, 50, 50);
+  }
+main{
+    display: flex;
+    background-color: rgb(221, 221, 250,0.3);
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+   
+}
+main a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+.newsMain{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .4s!important;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.newsMain:hover{
+    box-shadow: 5px 5px 5px rgb(201, 196, 196);
+}
+.newsMain .mainImg{
+    border-radius: 10px;
+    width: 100%;
+}
+.newsMain .newsInfo{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    
+}
+.views{
+    margin-left: 5px;
+}
+.newsBottom{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+   margin-top: 20px;
+}
+.newsBottom p{
+    font-size: 1.4rem;
+}
+.pagination li{
+    font-size: 1.7rem;
+    
+}
+.pagination{
+   justify-content: center;
+ /* margin-top: 40px; */
+ background-color: rgb(221, 221, 250,0.3);
+ padding-top: 40px;
+ padding-bottom: 30px;
+}
+.pagination a{
+    color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 550px){
+    .newsMain{
+        width: 90%;
+    }
+    .mainImg{
+        width: 100%;
+        height: 50%;
+    }
+}

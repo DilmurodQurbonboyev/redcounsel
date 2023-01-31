@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Document",
+        "path": "frontend.document",
+        "image": "file-templates//633b0178abadd.png",
+        "created_at": "2022-10-03 20:29:53",
+        "updated_at": "2022-10-03 20:36:24"
+    },
+    {
+        "id": 2,
+        "title": "Card",
+        "path": "frontend.card",
+        "image": "file-templates//633b01ffd9a5c.png",
+        "created_at": "2022-10-03 20:38:39",
+        "updated_at": "2022-10-03 20:38:39"
+    },
+    {
+        "id": 3,
+        "title": "Accordion",
+        "path": "frontend.accordion",
+        "image": "file-templates//633b02718463c.png",
+        "created_at": "2022-10-03 20:40:33",
+        "updated_at": "2022-10-03 20:40:33"
+    },
+    {
+        "id": 4,
+        "title": "Detail",
+        "path": "frontend.detail",
+        "image": "file-templates//633b02b768b99.png",
+        "created_at": "2022-10-03 20:41:43",
+        "updated_at": "2022-10-03 20:41:43"
+    }
+]
