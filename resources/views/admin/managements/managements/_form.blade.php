@@ -20,18 +20,6 @@ $name = 'name_' . app()->getLocale();
     <div class="text-danger">{{ $message }}</div>
     @enderror
 </div>
-<div class="form-group">
-    <label for="region_id" class="@error('region_id') text-danger @enderror">{{ tr('Regions') }}</label>
-    <select name="region_id" id="region_id" class="form-control select2 @error('region_id') is-invalid @enderror">
-        <option value>{{ tr('Select') }}</option>
-        @foreach($regions as $region)
-            <option value="{{ $region->id }}"  {{ old('region_id', $management->region_id) == $region->id ? 'selected' : '' }}>{{ $region->$name }}</option>
-        @endforeach
-    </select>
-</div>
-@error('region_id')
-<div class="text-danger">{{ $message }}</div>
-@enderror
 <div class="card-header p-0 pt-1 border-bottom-0">
     <x-admin.language-tab/>
 </div>

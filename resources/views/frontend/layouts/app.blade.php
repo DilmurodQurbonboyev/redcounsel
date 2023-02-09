@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/team.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/.css') }}">
     <title>@yield('title')</title>
@@ -19,7 +21,10 @@
 @stack('front-js')
 <script src="{{ asset('js/home.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/team.js') }}"></script>
 <script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/aos.js') }}"></script>
+<script src="{{ asset('js/font-awesome.js.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script>
     @if (session()->has('success'))

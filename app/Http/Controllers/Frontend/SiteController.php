@@ -50,41 +50,17 @@ class SiteController extends Controller
 
     public function leader($slug)
     {
-        $regions = Region::query()
-            ->select([
-                'id',
-                'name_oz',
-                'name_uz',
-                'name_ru'
-            ])
-            ->whereNull('parent_id')
-            ->paginate(20);
-
         $category = MCategory::query()
             ->where('slug', $slug)
             ->where('status', 2)
-            ->with(
-                [
-                    'translations' => function ($query) {
-                        $query->where('locale', app()->getLocale());
-                    },
-                ]
-            )
             ->first();
-
-        if ($category->id == 2) {
-            $view = 'frontend.regional';
-        } else {
-            $view = 'frontend.management';
-        }
-
         $leaders = Management::query()
             ->where('m_category_id', $category->id)
             ->orderBy('order')
             ->where('status', 2)
             ->paginate(12);
 
-        return view($view, compact('leaders', 'category', 'regions'));
+        return view('frontend.management', compact('leaders', 'category'));
     }
 
     public function category($slug)

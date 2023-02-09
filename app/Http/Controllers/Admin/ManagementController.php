@@ -13,7 +13,7 @@ use Illuminate\Http\RedirectResponse;
 
 class ManagementController extends Controller
 {
-    private ManagementRepositoryInterface $managementRepository;
+    private $managementRepository;
 
     public function __construct(ManagementRepositoryInterface $managementRepository)
     {
@@ -32,21 +32,12 @@ class ManagementController extends Controller
     public function create()
     {
         $management = new Management();
-        $regions = Region::query()
-            ->where('parent_id', 1708)
-            ->get([
-                    'id',
-                    'name_oz',
-                    'name_uz',
-                    'name_ru'
-                ]);
         $managementCategories = MCategory::query()
             ->where('status', 2)
             ->get();
         return view('admin.managements.managements.create', compact([
             'managementCategories',
             'management',
-            'regions'
         ]));
     }
 
@@ -60,7 +51,7 @@ class ManagementController extends Controller
         } catch (Exception $error) {
             return redirect()
                 ->back()
-                ->with('error', tr('Something went wrong'));
+                ->with('error', $error->getMessage());
         }
     }
 
@@ -73,21 +64,12 @@ class ManagementController extends Controller
     public function edit($id)
     {
         $management = $this->managementRepository->getById($id);
-        $regions = Region::query()
-            ->where('parent_id', 1708)
-            ->get([
-                    'id',
-                    'name_oz',
-                    'name_uz',
-                    'name_ru'
-                ]);
         $managementCategories = MCategory::query()
             ->where('status', 2)
             ->get();
         return view('admin.managements.managements.edit', compact([
             'management',
             'managementCategories',
-            'regions'
         ]));
     }
 
