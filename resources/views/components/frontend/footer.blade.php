@@ -30,9 +30,9 @@
             <div id="call">
                 <i class="fa fa-phone"></i>
                 <div class="phone">
-                    <a class="call">Tel No:</a><br>
-                    <a href="tel:+998980008595">(+98) 000-85-95</a><br>
-                    <a href="tel:+998958025080">(+95) 802-50-80</a>
+                    <a class="call">{{ tr('Phone') }}:</a><br>
+                    <a href="tel:{{ $contact->phone ?? '' }}">{{ $contact->phone ?? '' }}</a><br>
+                    <a href="tel:{{ $contact->phone2 ?? '' }}">{{ $contact->phone2 ?? '' }}</a>
                 </div>
             </div>
         </div>

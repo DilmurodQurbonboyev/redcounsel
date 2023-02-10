@@ -1,19 +1,21 @@
-header{
-    height: 100vh;
-    position: relative;
-    margin-bottom: 5rem;
-    isolation: isolate;
-}
+
 
 /* nav section begin */
 .nav{
     position: relative;
+    
+}
+.carousel-inner img{
     height: 50vh;
-    background: url('../images/image1.webp');
     background-size: cover;
     background-position: center;
-    filter: saturate(100%);
     object-fit: cover;
+}
+.carousel-inner h5{
+    font-size: 3rem;
+}
+.carousel-inner p{
+    font-size: 2rem
 }
 .nav::after{
     content: '';
@@ -53,6 +55,7 @@ header{
 
 /* exp begin */
     .exp{
+        margin-top: 20px;
         background-image: url('../images/image11.png');
         background-repeat: no-repeat;
         background-position: 70% 35%;

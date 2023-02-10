@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
@@ -10,75 +11,13 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
-    <title>{{ asset('RedCounsel') }}</title>
+    <script src="{{ asset('js/aos.js') }}"></script>
+    <script src="{{ asset('js/font-awesome.js') }}"></script>
+    <title>{{ tr('RedCounsel') }}</title>
 </head>
 
 <body>
-<header>
-    <div class="nav">
-        <nav>
-            <div class="logo">
-                <a href="home.html">Red Counsel</a>
-                <p><i class="logo_sentence">One vision, one firm</i></p>
-            </div>
-            <div class="links" id="links">
-                <a href="./home.html" class="active home">Home</a>
-                <a href="./about.html" class="about">About Us</a>
-
-                <div class="dropdown dropella">
-                    <button class="dropbtn knopka">Dropdown</button>
-                    <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
-
-                        <a class="" href="./videoGalery.html">Video galery</a>
-                        <a class="news" href="./news.html">News & Deals</a>
-                    </div>
-                </div>
-                <a href="./team.html" class="team">Team</a>
-                <a href="#" class=" expertise">Expertise</a>
-                <a href="./international.html" class="international">International</a>
-                <a href="./contact.html" >Contact Us</a>
-            </div>
-            <div class="dropdown languagePicker">
-                <button
-                    style="font-size: 1.6rem!important; align-items: center; display: flex; justify-content: space-between;"
-                    class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img style="margin-right: 5px;" width="20px"
-                         src="https://www.citypng.com/public/uploads/preview/free-united-kingdom-england-uk-flag-icon-png-116400083878xgu5wo6d3.png"
-                         alt=""> English
-                </button>
-                <ul style="font-size: 1.6rem!important;" class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#"><img width="20px" src="https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/russia-flag-icon.png" alt=""> Russian</a></li>
-                    <li><a class="dropdown-item" href="#"><img width="20px" src="https://w7.pngwing.com/pngs/721/597/png-transparent-uzbekistan-flag-icon.png" alt=""> Uzbek</a></li>
-
-                </ul>
-            </div>
-            <div class="res-box">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="res-menu" id="links">
-                <a href="./home.html" class="home">Home</a>
-                <a href="./about.html" class="about">About Us</a>
-
-                <a href="./team.html" class="team">Team</a>
-                <a href="./expertise.html" class="expertise">Expertise</a>
-                <a href="./international.html" class="international">International</a>
-                <a href="./contact.html" >Contact Us</a>
-                <div class="dropdown dropella topmenuDrop">
-                    <button class="dropbtn knopka">Dropdown</button>
-                    <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
-
-                        <a  href="./videoGalery.html">Video galery</a>
-                        <a class="news" href="./news.html">News & Deals</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
-</header>
+<x-frontend.header/>
 
 <!-- carusel -->
 <div id="carouselExampleCaptions carosuel-main" class="carousel slide" data-bs-ride="carousel">
@@ -92,7 +31,7 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../images/image1.webp" class="d-block w-100" alt="...">
+            <img src="../img/service1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
@@ -126,19 +65,7 @@
 </div>
 
 
-<!-- exp -->
-<div class="exp">
-    <h2 class="year">{{ now()->format('Y') - 2003 }} {{ tr('years') }}</h2>
-    <h3 class="experience">experience</h3>
-    <p class="exp_sentence">Red Counsel's team has substantial experience in providing full-fledged legal
-        support to its clients with
-        high standard of legal advice and tailor-made business solutions. More than 15 years of successful
-        experience
-        in practicing law, a thorough knowledge of the local business environment, and a clear understanding of
-        clients' needs, puts Red Counsel in the right place to add real value to projects of our clients at all
-        stages, from initiation to execution.</p>
-    <button style="cursor: pointer;" class="more" onclick="aboutus()">more about us</button>
-</div>
+<x-frontend.about/>
 <div class="services " id="home-services">
     <div class="service-one " id="service">
         <div class="service-text" data-num="01" data-aos="fade-up-right">
@@ -219,47 +146,9 @@
     </div>
 </div>
 
-
-<footer>
-    <div class="footer-one" data-aos="zoom-in-up">
-        <div class="footer-logo">
-            <a href="./home.html">Red Counsel</a>
-        </div>
-        <div class="footer-links">
-            <a href="./home.html" class="homeFooter">Home</a>
-            <a href="./about.html" class="aboutFooter">About Us</a>
-            <div class="footer-drop dropdown dropella">
-                <button class="dropbtn knopka">Dropdown</button>
-                <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
-
-                    <a href="./videoGalery.html">Video galery</a>
-                    <a class="news" href="./news.html">News & Deals</a>
-                </div>
-            </div>
-            <a href="./team.html" class="teamFooter">Team</a>
-            <a href="./expertise.html" class="expertiseFooter">Expertise</a>
-            <a href="./international.html" class="internationalFooter">International</a>
-            <a href="./contact.html">Contact Us</a>
-        </div>
-        <div class="contact">
-            <div id="call">
-                <i class="fa fa-phone"></i>
-                <div class="phone">
-                    <a class="call">Tel No:</a><br>
-                    <a href="tel:+998980008595">(+98) 000-85-95</a><br>
-                    <a href="tel:+998958025080">(+95) 802-50-80</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
+<x-frontend.footer />
 <script src="{{ asset('js/home.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
-<script src="{{ asset('js/aos.js') }}"></script>
-<script src="{{ asset('js/font-awesome') }}"></script>
 <script src="{{ asset('js/popper.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>

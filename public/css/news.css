@@ -2,18 +2,19 @@
     --main: #111;
     --back: #eee;
 }
+
 .bg-news {
     background-image: url("https://uktechnews.co.uk/wp-content/uploads/2022/12/shutterstock_666231598-scaled.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     filter: brightness(40%);
-    height: 70vh;
+    height: 50vh;
     width: 100%;
   }
   .ourTeam{
     position: absolute;
-    top: 60%;
+    top: 36%;
     left: 10%;
     color: white;
     z-index: 4;
@@ -50,7 +51,7 @@ main{
     display: flex;
     background-color: rgb(221, 221, 250,0.3);
     padding: 10px;
-    justify-content: space-around;
+    padding-left: 2%;
     flex-wrap:wrap;
    
 }
@@ -61,7 +62,7 @@ main a{
 }
 
 .newsMain{
-    width: 350px;
+    width: 300px;
     background-color: #fff;
     border-radius: 10px;
     transition: .4s!important;
@@ -105,6 +106,7 @@ main a{
  background-color: rgb(221, 221, 250,0.3);
  padding-top: 40px;
  padding-bottom: 30px;
+ 
 }
 .pagination a{
     color: red;

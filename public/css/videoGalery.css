@@ -8,12 +8,13 @@
   background-size: cover;
   background-position: center;
   filter: brightness(60%);
-  height: 70vh;
+  height: 50vh;
   width: 100%;
 }
 .video-main{
-    width: 350px;
+    width: 300px;
     padding: 10px;
+ 
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -35,10 +36,11 @@
 main{
     padding-top: 50px;
     width: 100%;
+    padding-left: 5%;
     display: flex;
     background-color: var(--mainColor);
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
 
 }
 .pagination li{

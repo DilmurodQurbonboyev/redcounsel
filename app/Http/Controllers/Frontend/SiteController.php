@@ -171,7 +171,7 @@ class SiteController extends Controller
 
     public function contact()
     {
-        $contact = Contact::query()->first();
+        $contact = Contact::withTranslation()->first();
         return view('frontend.contact', compact('contact'));
     }
 
