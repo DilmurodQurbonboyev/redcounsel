@@ -17,7 +17,7 @@ class Lists extends Model implements TranslatableContract
 
     public $useTranslationFallback = true;
 
-    public array $translatedAttributes = [
+    public $translatedAttributes = [
         'title',
         'description',
         'content',

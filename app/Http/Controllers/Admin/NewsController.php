@@ -14,7 +14,7 @@ use App\Interfaces\ListsRepositoryInterface;
 
 class NewsController extends Controller
 {
-    private ListsRepositoryInterface $listsRepository;
+    private $listsRepository;
 
     public function __construct(ListsRepositoryInterface $listsRepository)
     {

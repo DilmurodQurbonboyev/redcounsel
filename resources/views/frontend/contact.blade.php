@@ -12,86 +12,22 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
     <script src="{{ asset('js/aos.js') }}"></script>
-    <script src="{{ asset('js/font-awesome.js') }}"></script>
+    <script src="{{ asset('js/fontawesome.js') }}"></script>
     <title>{{ tr('Contact') }}</title>
 </head>
 <body>
 <div class="nav">
-    <nav>
-        <div class="logo">
-            <a href="home.html">Red Counsel</a>
-            <p><i class="logo_sentence">One vision, one firm</i></p>
-        </div>
-        <div class="links" id="links">
-            <a href="./home.html" class=" home">Home</a>
-            <a href="./about.html" class="about">About Us</a>
+    <x-frontend.header/>
 
-            <div class="dropdown dropella">
-                <button class="dropbtn knopka">Dropdown</button>
-                <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
-
-                    <a class="active" href="./videoGalery.html">Video galery</a>
-                    <a href="news.html" class="news">News</a>
-                </div>
-            </div>
-            <a href="./team.html" class="team">Team</a>
-            <a href="./expertise.html" class="expertise">Expertise</a>
-            <a href="./international.html" class="international">International</a>
-            <a href="#" class="active contact">Contact Us</a>
-        </div>
-        <div class="dropdown languagePicker">
-            <button
-                style="font-size: 1.6rem!important; align-items: center; display: flex; justify-content: space-between;"
-                class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <img style="margin-right: 5px;" width="20px"
-                     src="https://www.citypng.com/public/uploads/preview/free-united-kingdom-england-uk-flag-icon-png-116400083878xgu5wo6d3.png"
-                     alt=""> English
-            </button>
-            <ul style="font-size: 1.6rem!important;" class="dropdown-menu"
-                aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#"><img width="20px"
-                                                           src="https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/russia-flag-icon.png"
-                                                           alt=""> Russian</a></li>
-                <li><a class="dropdown-item" href="#"><img width="20px"
-                                                           src="https://w7.pngwing.com/pngs/721/597/png-transparent-uzbekistan-flag-icon.png"
-                                                           alt=""> Uzbek</a></li>
-
-            </ul>
-        </div>
-        <div class="res-box">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="res-menu" id="links">
-            <a href="./home.html" class="home">Home</a>
-            <a href="./about.html" class="about">About Us</a>
-
-            <a href="./team.html" class="team">Team</a>
-            <a href="./expertise.html" class="expertise">Expertise</a>
-            <a href="./international.html" class="international">International</a>
-            <a href="./contact.html">Contact Us</a>
-            <div class="dropdown dropella topmenuDrop">
-                <button class="dropbtn knopka">Dropdown</button>
-                <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
-
-                    <a href="./videoGalery.html">Video galery</a>
-                    <a class="news" href="./news.html">News & Deals</a>
-                </div>
-            </div>
-        </div>
-    </nav>
     <div class="bg-contact"></div>
     <div class="ourTeam">
-        <h2>About Us</h2>
-        <p><a href="./home.html">Asosiy </a> /About us</p>
+        <h2>{{ tr('Contact') }}</h2>
+        <p>
+            <a href="/">{{ tr('Home') }} </a>
+            / {{ tr('Contact') }}
+        </p>
     </div>
 </div>
-
-
-<!-- contact info -->
-
 
 <div data-aos="zoom-in-up" class="contents">
     <div class="content-in">
@@ -106,12 +42,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Address') }}:</span>
+                                        <span>Манзил:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->address ?? '' }}</span>
+                                        <span>100047, Ўзбекистон Республикаси, Тошкент шаҳри, Яшнобод тумани, Истиқбол кўчаси, 21-уй</span>
                                     </div>
                                 </div>
                             </div>
@@ -120,12 +56,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Phone') }}:</span>
+                                        <span>Телефон:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <a href="#">{{ $contact->phone ?? '' }}</a>
+                                        <a href="#">(+99871) 232-05-17</a>
                                     </div>
                                 </div>
                             </div>
@@ -134,12 +70,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Fax') }}:</span>
+                                        <span>Fax:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <a href="#">{{ $contact->fax ?? '' }}</a>
+                                        <a href="#"></a>
                                     </div>
                                 </div>
                             </div>
@@ -148,12 +84,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Email') }}:</span>
+                                        <span>Email:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <a href="#">{{ $contact->email ?? '' }}</a>
+                                        <a href="#">info@uzngi.uz</a>
                                     </div>
                                 </div>
                             </div>
@@ -162,12 +98,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Reception') }}:</span>
+                                        <span>Қабул:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->reception ?? '' }}</span>
+                                        <span>Душанба-жума 09:00 - 18:00</span>
                                     </div>
                                 </div>
                             </div>
@@ -176,12 +112,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Working Time') }}:</span>
+                                        <span>Иш вақти:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->working_time ?? '' }}</span>
+                                        <span>Душанба-жума 09:00 - 18:00</span>
                                     </div>
                                 </div>
                             </div>
@@ -190,12 +126,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Lunch') }}:</span>
+                                        <span>Тушлик:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->lunch ?? '' }}</span>
+                                        <span>13:00 дан - 14:00 гача</span>
                                     </div>
                                 </div>
                             </div>
@@ -204,12 +140,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Weekend') }}:</span>
+                                        <span>Дам олиш куни:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->weekend ?? '' }}</span>
+                                        <span>шанба ва якшанба</span>
                                     </div>
                                 </div>
                             </div>
@@ -218,12 +154,12 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Transport') }}:</span>
+                                        <span>Транспорт:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->transport ?? '' }}</span>
+                                        <span>Метро: Амир Темур бекати Автобуслар: № 14, 53, 58, 78, 93, 98</span>
                                     </div>
                                 </div>
                             </div>
@@ -232,28 +168,98 @@
                             <div class="row">
                                 <div class="col-xl-4">
                                     <div class="contact-left">
-                                        <span>{{ tr('Hr Department') }}:</span>
+                                        <span>Мўлжал:</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="contact-right">
-                                        <span>{{ $contact->hr_department ?? '' }}</span>
+                                        <span>Тошкент шаҳридаги Халқаро Вестминстер университети</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-data">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="contact-left">
+                                        <span>Канцелярия:</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="contact-right">
+                                        <span>(+99871) 232-05-17 (429)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-data">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="contact-left">
+                                        <span>Ходимлар бўлими:</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="contact-right">
+                                        <span>(+99871) 232-05-17 (430)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <div class="contact-data">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="contact-left">
+                                        <span>Матбуот хизмати:</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="contact-right">
+                                        <span>Электрон ҳукумат тизимини, ахборот технологияларини ривожлантириш ва жамоатчилик билан алоқалар бўлими  Тел.: (+99871) 232-05-18 (429)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <div class="contact-data">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="contact-left">
+                                        <span>Техник қўллаб-қувватловчи бўлим:</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8">
+                                    <div class="contact-right">
+                                        <span>Ижро интизомини назорат қилиш ва мурожаатлар билан ишлаш бўлими  (+99871) 200 11 14</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6 ">
-                        <div data-aos="zoom-in-up" id="map"></div>
-                    </div>
+                </div>
+                <div class="col-xxl-6 " >
+
+                    <div data-aos="zoom-in-up" id="map" ></div>
                 </div>
             </div>
         </div>
     </div>
-    <x-frontend.footer/>
-    <script src="{{ asset('js/contact.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+</div>
+
+<x-frontend.footer/>
+<script>
+    AOS.init();
+
+    var map = L.map('map').setView([41.2926973,69.2477483], 13);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([41.2926973,69.2477483]).addTo(map)
+        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+        .openPopup()
+
+</script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 </body>
 </html>

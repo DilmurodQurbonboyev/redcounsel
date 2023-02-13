@@ -16,7 +16,7 @@ class Menu extends Model implements TranslatableContract
 
     public $useTranslationFallback = true;
 
-    public array $translatedAttributes = ['title'];
+    public $translatedAttributes = ['title'];
 
     protected $fillable = [
         'link',

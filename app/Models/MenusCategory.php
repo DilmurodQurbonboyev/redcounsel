@@ -21,7 +21,7 @@ class MenusCategory extends Model implements TranslatableContract
 
     protected $table = 'menus_categories';
 
-    public array $translatedAttributes = ['title'];
+    public $translatedAttributes = ['title'];
 
     protected $fillable = [
         'status',

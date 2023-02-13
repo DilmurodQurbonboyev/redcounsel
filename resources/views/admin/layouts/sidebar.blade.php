@@ -130,32 +130,6 @@
                             </ul>
                         </li>
                         <li
-                            class="nav-item {{ request()->routeIs('answers.*', 'answers-category.*') ? 'menu-open' : '' }}">
-                            <a class="nav-link {{ request()->routeIs('answers.*', 'answers-category.*') ? 'active' : '' }}"
-                               href="javascript:void(0);">
-                                <i class="nav-icon fab fa-weixin"></i>
-                                <p>{{ MessageService::tr('Answers') }}
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('answers-category.*') ? 'active' : '' }}"
-                                       href="{{ route('answers-category.index') }}">
-                                        <i class="nav-icon fas fa-circle"></i>
-                                        <p>{{ MessageService::tr('Answer Categories') }}</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ request()->routeIs('answers.*') ? 'active' : '' }}"
-                                       href="{{ route('answers.index') }}">
-                                        <i class="nav-icon fas fa-circle"></i>
-                                        <p>{{ MessageService::tr('Answers') }}</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li
                             class="nav-item {{ request()->routeIs('useful.*', 'useful-category.*') ? 'menu-open' : '' }}">
                             <a class="nav-link {{ request()->routeIs('useful.*', 'useful-category.*') ? 'active' : '' }}"
                                href="javascript:void(0);">
@@ -280,13 +254,6 @@
                                 <p>{{ MessageService::tr('Contacts') }}</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ request()->routeIs('files.*') ? 'active' : '' }}"
-                               href="{{ route('files.index') }}">
-                                <i class="nav-icon fab fa-html5"></i>
-                                <p>{{ MessageService::tr('Files') }}</p>
-                            </a>
-                        </li>
                     </ul>
                 </li>
                 <li
@@ -314,13 +281,6 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('applications.index') }}"
-                       class="nav-link {{ request()->routeIs('applications.*') ? 'active' : '' }}">
-                        <i class="nav-icon fas fa-folder"></i>
-                        <p>{{ MessageService::tr('Applications') }}</p>
-                    </a>
                 </li>
             </ul>
         </nav>

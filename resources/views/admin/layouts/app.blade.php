@@ -36,7 +36,6 @@
         </div>
         <div class="content">
             @include('admin.layouts.alert')
-
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">

@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 
 class MessageController extends Controller
 {
-    private MessageService $service;
+    private $service;
     public function __construct(MessageService $service)
     {
         $this->service = $service;

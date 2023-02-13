@@ -27,7 +27,7 @@ main{
     align-items: center;
     padding-bottom: .5rem;
     margin-right: 3rem;
-    padding-bottom: 1rem;
+    margin-top: 2rem;
 }
 .main-nav ul li.active-link{
     border-bottom: 2px solid #000;
@@ -54,6 +54,18 @@ main{
     font-weight: 600;
 }
 footer{
+    top: 35vh;
+    
+}
+.footer-logo{
+    padding-left: 20px;
+    
+}
+.footer-logo a{
    
-    bottom: 0!important;
+    text-decoration: none;
+}
+.footer-one{
+    padding: 30px;
+   
 }
