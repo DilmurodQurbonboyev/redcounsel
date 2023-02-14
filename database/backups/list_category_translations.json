@@ -94,5 +94,101 @@
         "list_category_id": 4,
         "title": null,
         "locale": "en"
+    },
+    {
+        "id": 17,
+        "list_category_id": 5,
+        "title": null,
+        "locale": "oz"
+    },
+    {
+        "id": 18,
+        "list_category_id": 5,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 19,
+        "list_category_id": 5,
+        "title": "Глобал",
+        "locale": "ru"
+    },
+    {
+        "id": 20,
+        "list_category_id": 5,
+        "title": "International",
+        "locale": "en"
+    },
+    {
+        "id": 21,
+        "list_category_id": 6,
+        "title": "Biz haqimizda",
+        "locale": "oz"
+    },
+    {
+        "id": 22,
+        "list_category_id": 6,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 23,
+        "list_category_id": 6,
+        "title": "О нас",
+        "locale": "ru"
+    },
+    {
+        "id": 24,
+        "list_category_id": 6,
+        "title": "About us",
+        "locale": "en"
+    },
+    {
+        "id": 25,
+        "list_category_id": 7,
+        "title": "Bizning xizmatlar",
+        "locale": "oz"
+    },
+    {
+        "id": 26,
+        "list_category_id": 7,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 27,
+        "list_category_id": 7,
+        "title": "Наши услуги",
+        "locale": "ru"
+    },
+    {
+        "id": 28,
+        "list_category_id": 7,
+        "title": "Our services",
+        "locale": "en"
+    },
+    {
+        "id": 29,
+        "list_category_id": 8,
+        "title": "Ekspertiza",
+        "locale": "oz"
+    },
+    {
+        "id": 30,
+        "list_category_id": 8,
+        "title": null,
+        "locale": "uz"
+    },
+    {
+        "id": 31,
+        "list_category_id": 8,
+        "title": "Экспертиза",
+        "locale": "ru"
+    },
+    {
+        "id": 32,
+        "list_category_id": 8,
+        "title": "Expertise",
+        "locale": "en"
     }
 ]

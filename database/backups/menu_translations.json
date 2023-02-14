@@ -2,601 +2,193 @@
     {
         "id": 1,
         "menu_id": 1,
-        "title": "Yangiliklar",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 2,
         "menu_id": 1,
-        "title": "Янгиликлар",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 3,
         "menu_id": 1,
-        "title": "Новости",
+        "title": "Главная",
         "locale": "ru"
     },
     {
         "id": 4,
         "menu_id": 1,
-        "title": null,
+        "title": "Home",
         "locale": "en"
     },
     {
         "id": 5,
         "menu_id": 2,
-        "title": "Hokimlik",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 6,
         "menu_id": 2,
-        "title": "Ҳокимлик",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 7,
         "menu_id": 2,
-        "title": "Хокимият",
+        "title": "О нас",
         "locale": "ru"
     },
     {
         "id": 8,
         "menu_id": 2,
-        "title": "Hokimiyat",
+        "title": "About",
         "locale": "en"
     },
     {
         "id": 9,
         "menu_id": 3,
-        "title": "Media",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 10,
         "menu_id": 3,
-        "title": "Медиа",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 11,
         "menu_id": 3,
-        "title": "Медиа",
+        "title": "Команда",
         "locale": "ru"
     },
     {
         "id": 12,
         "menu_id": 3,
-        "title": null,
+        "title": "Team",
         "locale": "en"
     },
     {
         "id": 13,
         "menu_id": 4,
-        "title": "Viloyat yangiliklari",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 14,
         "menu_id": 4,
-        "title": "Вилоят янгиликлари",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 15,
         "menu_id": 4,
-        "title": "Новости Джизака",
+        "title": "Экспертиза",
         "locale": "ru"
     },
     {
         "id": 16,
         "menu_id": 4,
-        "title": null,
+        "title": "Expertise",
         "locale": "en"
     },
     {
         "id": 17,
         "menu_id": 5,
-        "title": "Respublika xabarlari",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 18,
         "menu_id": 5,
-        "title": "Республика хабарлари",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 19,
         "menu_id": 5,
-        "title": "Республиканские новости",
+        "title": "Глобал",
         "locale": "ru"
     },
     {
         "id": 20,
         "menu_id": 5,
-        "title": null,
+        "title": "International",
         "locale": "en"
     },
     {
         "id": 21,
         "menu_id": 6,
-        "title": "Siyosat",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 22,
         "menu_id": 6,
-        "title": "Сиёсат",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 23,
         "menu_id": 6,
-        "title": "Политика",
+        "title": "Медиа",
         "locale": "ru"
     },
     {
         "id": 24,
         "menu_id": 6,
-        "title": null,
+        "title": "Media",
         "locale": "en"
     },
     {
         "id": 25,
         "menu_id": 7,
-        "title": "Yoshlar siyosati",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 26,
         "menu_id": 7,
-        "title": "Ёшлар сиёсати",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 27,
         "menu_id": 7,
-        "title": "Молодежная политика",
+        "title": "Новости",
         "locale": "ru"
     },
     {
         "id": 28,
         "menu_id": 7,
-        "title": null,
+        "title": "News",
         "locale": "en"
     },
     {
         "id": 29,
         "menu_id": 8,
-        "title": "Iqtisodiyot",
+        "title": null,
         "locale": "oz"
     },
     {
         "id": 30,
         "menu_id": 8,
-        "title": "Иқтисодиёт",
+        "title": null,
         "locale": "uz"
     },
     {
         "id": 31,
         "menu_id": 8,
-        "title": "Экономика",
+        "title": "Видеогалерея",
         "locale": "ru"
     },
     {
         "id": 32,
         "menu_id": 8,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 33,
-        "menu_id": 9,
-        "title": "Sport",
-        "locale": "oz"
-    },
-    {
-        "id": 34,
-        "menu_id": 9,
-        "title": "Спорт",
-        "locale": "uz"
-    },
-    {
-        "id": 35,
-        "menu_id": 9,
-        "title": "Спорт",
-        "locale": "ru"
-    },
-    {
-        "id": 36,
-        "menu_id": 9,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 37,
-        "menu_id": 10,
-        "title": "Коrrupsiga qarshi kurashish",
-        "locale": "oz"
-    },
-    {
-        "id": 38,
-        "menu_id": 10,
-        "title": "Коррупцияга қарши курашиш",
-        "locale": "uz"
-    },
-    {
-        "id": 39,
-        "menu_id": 10,
-        "title": "Борьба с коррупцией",
-        "locale": "ru"
-    },
-    {
-        "id": 40,
-        "menu_id": 10,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 41,
-        "menu_id": 11,
-        "title": "Теnder o'tkazishga mas'ul shaxs",
-        "locale": "oz"
-    },
-    {
-        "id": 42,
-        "menu_id": 11,
-        "title": "Тендер ўтказишга масъул шахс",
-        "locale": "uz"
-    },
-    {
-        "id": 43,
-        "menu_id": 11,
-        "title": "Лицо, ответственное за проведение тендера",
-        "locale": "ru"
-    },
-    {
-        "id": 44,
-        "menu_id": 11,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 45,
-        "menu_id": 12,
-        "title": "Теnder va e'lonlar",
-        "locale": "oz"
-    },
-    {
-        "id": 46,
-        "menu_id": 12,
-        "title": "Тендер ва эълонлар",
-        "locale": "uz"
-    },
-    {
-        "id": 47,
-        "menu_id": 12,
-        "title": "Тендеры и объявление",
-        "locale": "ru"
-    },
-    {
-        "id": 48,
-        "menu_id": 12,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 49,
-        "menu_id": 13,
-        "title": "Bo'sh ish o'rinlari",
-        "locale": "oz"
-    },
-    {
-        "id": 50,
-        "menu_id": 13,
-        "title": "Бўш иш ўринлари",
-        "locale": "uz"
-    },
-    {
-        "id": 51,
-        "menu_id": 13,
-        "title": "Ваканции",
-        "locale": "ru"
-    },
-    {
-        "id": 52,
-        "menu_id": 13,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 53,
-        "menu_id": 14,
-        "title": "Axborot xizmati",
-        "locale": "oz"
-    },
-    {
-        "id": 54,
-        "menu_id": 14,
-        "title": "Ахборот хизмати",
-        "locale": "uz"
-    },
-    {
-        "id": 55,
-        "menu_id": 14,
-        "title": "Информационная служба",
-        "locale": "ru"
-    },
-    {
-        "id": 56,
-        "menu_id": 14,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 57,
-        "menu_id": 15,
-        "title": "Akkreditatsiya",
-        "locale": "oz"
-    },
-    {
-        "id": 58,
-        "menu_id": 15,
-        "title": "Аккредитация",
-        "locale": "uz"
-    },
-    {
-        "id": 59,
-        "menu_id": 15,
-        "title": "Аккредитация",
-        "locale": "ru"
-    },
-    {
-        "id": 60,
-        "menu_id": 15,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 61,
-        "menu_id": 16,
-        "title": "Press relizlar",
-        "locale": "oz"
-    },
-    {
-        "id": 62,
-        "menu_id": 16,
-        "title": "Пресс релизлар",
-        "locale": "uz"
-    },
-    {
-        "id": 63,
-        "menu_id": 16,
-        "title": "Пресс релизы",
-        "locale": "ru"
-    },
-    {
-        "id": 64,
-        "menu_id": 16,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 65,
-        "menu_id": 17,
-        "title": "Fotogalereya",
-        "locale": "oz"
-    },
-    {
-        "id": 66,
-        "menu_id": 17,
-        "title": "Фотогалерея",
-        "locale": "uz"
-    },
-    {
-        "id": 67,
-        "menu_id": 17,
-        "title": "Фотогалерея",
-        "locale": "ru"
-    },
-    {
-        "id": 68,
-        "menu_id": 17,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 69,
-        "menu_id": 18,
-        "title": "Videogalereya",
-        "locale": "oz"
-    },
-    {
-        "id": 70,
-        "menu_id": 18,
-        "title": "Видеогалерея",
-        "locale": "uz"
-    },
-    {
-        "id": 71,
-        "menu_id": 18,
-        "title": "Видеогалерея",
-        "locale": "ru"
-    },
-    {
-        "id": 72,
-        "menu_id": 18,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 73,
-        "menu_id": 19,
-        "title": "Aloqa",
-        "locale": "oz"
-    },
-    {
-        "id": 74,
-        "menu_id": 19,
-        "title": "Алоқа",
-        "locale": "uz"
-    },
-    {
-        "id": 75,
-        "menu_id": 19,
-        "title": "Контакты",
-        "locale": "ru"
-    },
-    {
-        "id": 76,
-        "menu_id": 19,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 77,
-        "menu_id": 20,
-        "title": "Hujjatlar",
-        "locale": "oz"
-    },
-    {
-        "id": 78,
-        "menu_id": 20,
-        "title": "Ҳужжатлар",
-        "locale": "uz"
-    },
-    {
-        "id": 79,
-        "menu_id": 20,
-        "title": "Документы",
-        "locale": "ru"
-    },
-    {
-        "id": 80,
-        "menu_id": 20,
-        "title": "Documents",
-        "locale": "en"
-    },
-    {
-        "id": 81,
-        "menu_id": 21,
-        "title": "Tadbirlar",
-        "locale": "oz"
-    },
-    {
-        "id": 82,
-        "menu_id": 21,
-        "title": "Тадбирлар",
-        "locale": "uz"
-    },
-    {
-        "id": 83,
-        "menu_id": 21,
-        "title": "Мероприятия",
-        "locale": "ru"
-    },
-    {
-        "id": 84,
-        "menu_id": 21,
-        "title": "Events",
-        "locale": "en"
-    },
-    {
-        "id": 85,
-        "menu_id": 22,
-        "title": "Xizmatlar",
-        "locale": "oz"
-    },
-    {
-        "id": 86,
-        "menu_id": 22,
-        "title": "Хизматлар",
-        "locale": "uz"
-    },
-    {
-        "id": 87,
-        "menu_id": 22,
-        "title": "Услуги",
-        "locale": "ru"
-    },
-    {
-        "id": 88,
-        "menu_id": 22,
-        "title": "Services",
-        "locale": "en"
-    },
-    {
-        "id": 89,
-        "menu_id": 23,
-        "title": "Aloqa",
-        "locale": "oz"
-    },
-    {
-        "id": 90,
-        "menu_id": 23,
-        "title": "Алоқа",
-        "locale": "uz"
-    },
-    {
-        "id": 91,
-        "menu_id": 23,
-        "title": "Контакты",
-        "locale": "ru"
-    },
-    {
-        "id": 92,
-        "menu_id": 23,
-        "title": "Contacts",
-        "locale": "en"
-    },
-    {
-        "id": 93,
-        "menu_id": 24,
-        "title": "Hokimlik haqida",
-        "locale": "oz"
-    },
-    {
-        "id": 94,
-        "menu_id": 24,
-        "title": "Хокимлик ҳақида",
-        "locale": "uz"
-    },
-    {
-        "id": 95,
-        "menu_id": 24,
-        "title": "О хокимияте",
-        "locale": "ru"
-    },
-    {
-        "id": 96,
-        "menu_id": 24,
-        "title": null,
-        "locale": "en"
-    },
-    {
-        "id": 97,
-        "menu_id": 25,
-        "title": "Rahbariyat",
-        "locale": "oz"
-    },
-    {
-        "id": 98,
-        "menu_id": 25,
-        "title": "Раҳбарият",
-        "locale": "uz"
-    },
-    {
-        "id": 99,
-        "menu_id": 25,
-        "title": "Руководство",
-        "locale": "ru"
-    },
-    {
-        "id": 100,
-        "menu_id": 25,
-        "title": "Management",
+        "title": "Videogallery",
         "locale": "en"
     }
 ]

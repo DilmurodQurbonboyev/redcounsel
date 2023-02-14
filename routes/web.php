@@ -26,6 +26,8 @@ Route::prefix(LaravelLocalization::setLocale())
                 Route::get('/pages/{slug}', 'pages')->name('pages');
                 Route::get('/documents/{slug}', 'documents')->name('documents');
                 Route::get('/contact', 'contact')->name('contact');
+                Route::get('/about', 'about')->name('about');
+                Route::get('/expertise', 'expertise')->name('expertise');
             });
 
         Route::fallback(function () {

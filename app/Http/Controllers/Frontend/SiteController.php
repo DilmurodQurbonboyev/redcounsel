@@ -87,14 +87,12 @@ class SiteController extends Controller
             return view('frontend.404');
         }
 
-        $view = $category->file;
-
         switch ($category->list_type_id) {
             case ListType::NEWS:
                 $view = 'frontend.news';
                 break;
             case ListType::PAGE:
-                $view = $category->listFile->path;
+                $view = 'frontend.international';
                 break;
             case ListType::PHOTO:
                 $view = 'frontend.photoGallery';
@@ -179,5 +177,36 @@ class SiteController extends Controller
     {
         $posts = Lists::query()->where('list_type_id', ListType::NEWS)->latest()->get();
         return response()->view('frontend.rss', compact('posts'))->header('Content-Type', 'text/xml');
+    }
+
+    public function about()
+    {
+        $list = Lists::getList()
+            ->where('lists.list_type_id', 5)
+            ->where('lists.lists_category_id', 6)
+            ->where('lists.status', 2)
+            ->orderBy('lists.date', 'desc')
+            ->orderBy('lists.order')
+            ->first();
+        $services = Lists::getList()
+            ->where('lists.list_type_id', 5)
+            ->where('lists.lists_category_id', 7)
+            ->where('lists.status', 2)
+            ->orderBy('lists.date', 'desc')
+            ->orderBy('lists.order')
+            ->get();
+        return view('frontend.about', compact('list', 'services'));
+    }
+
+    public function expertise()
+    {
+        $expertises = Lists::getList()
+            ->where('lists.list_type_id', 5)
+            ->where('lists.lists_category_id', 8)
+            ->where('lists.status', 2)
+            ->orderBy('lists.date', 'desc')
+            ->orderBy('lists.order')
+            ->get();
+        return view('frontend.expertise', compact('expertises'));
     }
 }
