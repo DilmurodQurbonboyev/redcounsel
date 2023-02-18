@@ -11,12 +11,7 @@ class LogController extends Controller
 {
     public function index()
     {
-        $users = User::query()->get();
-        $logs = SiteLog::query()->orderByDesc('id')->paginate(20);
-        return view('admin.logs.index', compact([
-            'users',
-            'logs'
-        ]));
+        return view('admin.logs.index');
     }
 
     public function show($id)

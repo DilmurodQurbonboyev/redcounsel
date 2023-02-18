@@ -7,7 +7,7 @@ $name = 'name_' . app()->getLocale();
         {{ tr('Category') }}
     </label>
     <select class="form-control select2 @error('m_category_id') is-invalid @enderror" name="m_category_id"
-            id="m_category_id">
+        id="m_category_id">
         <option value>{{ tr('Select Category') }}</option>
 
         @foreach ($managementCategories as $managementCategory)
@@ -17,23 +17,23 @@ $name = 'name_' . app()->getLocale();
         @endforeach
     </select>
     @error('m_category_id')
-    <div class="text-danger">{{ $message }}</div>
+        <div class="text-danger">{{ $message }}</div>
     @enderror
 </div>
 <div class="card-header p-0 pt-1 border-bottom-0">
-    <x-admin.language-tab/>
+    <x-admin.language-tab />
 </div>
 <div class="tab-content my-tab-content">
     @foreach (Config::get('translatable.locales') as $lang)
         <div class="tab-pane fade show" id="{{ $lang }}" role="tabpanel" aria-labelledby="{{ $lang }}">
             <div class="form-group">
                 <label for="title_{{ $lang }}"
-                       class="@error('title_' . $lang) text-danger @enderror">{{ tr('Title') }}</label>
+                    class="@error('title_' . $lang) text-danger @enderror">{{ tr('Title') }}</label>
                 <input type="text" name="title_{{ $lang }}"
-                       class="form-control @error('title_' . $lang) is-invalid @enderror" id="title_{{ $lang }}"
-                       value="{{ old('title_' . $lang, $management->translate($lang)->title ?? '') }}">
+                    class="form-control @error('title_' . $lang) is-invalid @enderror" id="title_{{ $lang }}"
+                    value="{{ old('title_' . $lang, $management->translate($lang)->title ?? '') }}">
                 @error('title_' . $lang)
-                <div class="text-danger">{{ $message }}</div>
+                    <div class="text-danger">{{ $message }}</div>
                 @enderror
             </div>
             <div class="form-group">
@@ -41,57 +41,40 @@ $name = 'name_' . app()->getLocale();
                     {{ tr('Leader') }}
                 </label>
                 <input type="text" class="form-control @error('leader_' . $lang)  @enderror"
-                       name="leader_{{ $lang }}" id="leader_{{ $lang }}"
-                       value="{{ old('leader_' . $lang, $management->translate($lang)->leader ?? '') }}">
+                    name="leader_{{ $lang }}" id="leader_{{ $lang }}"
+                    value="{{ old('leader_' . $lang, $management->translate($lang)->leader ?? '') }}">
                 @error('leader_' . $lang)
-                <div class="text-danger">{{ $message }}</div>
+                    <div class="text-danger">{{ $message }}</div>
                 @enderror
             </div>
             <div class="form-group">
                 <label for="reception_{{ $lang }}">{{ tr('Reception') }}</label>
                 <textarea class="form-control" name="reception_{{ $lang }}" id="reception_{{ $lang }}" cols="30"
-                          rows="2">{{ old('reception_' . $lang, $management->translate($lang)->reception ?? '') }}</textarea>
+                    rows="2">{{ old('reception_' . $lang, $management->translate($lang)->reception ?? '') }}</textarea>
             </div>
             <div class="form-group">
                 <label for="address_{{ $lang }}">{{ tr('Address') }}</label>
                 <textarea class="form-control" name="address_{{ $lang }}" id="address_{{ $lang }}" cols="30"
-                          rows="2">{{ old('address_' . $lang, $management->translate($lang)->address ?? '') }}</textarea>
+                    rows="2">{{ old('address_' . $lang, $management->translate($lang)->address ?? '') }}</textarea>
             </div>
             <div class="form-group">
                 <label for="biography_{{ $lang }}">{{ tr('Biography') }}</label>
                 <textarea class="form-control" name="biography_{{ $lang }}" id="biography_{{ $lang }}" cols="30"
-                          rows="4">{{ old('biography_' . $lang, $management->translate($lang)->biography ?? '') }}</textarea>
+                    rows="4">{{ old('biography_' . $lang, $management->translate($lang)->biography ?? '') }}</textarea>
             </div>
             <div class="form-group">
                 <label for="description_{{ $lang }}">{{ tr('Functions') }}</label>
                 <textarea class="form-control" name="description_{{ $lang }}" id="description_{{ $lang }}"
-                          cols="30"
-                          rows="4">{{ old('description_' . $lang, $management->translate($lang)->description ?? '') }}</textarea>
+                    cols="30" rows="4">{{ old('description_' . $lang, $management->translate($lang)->description ?? '') }}</textarea>
             </div>
         </div>
     @endforeach
 </div>
 <div class="form-group">
-    <label for="image" class="mb-2">{{ tr('Organization Image') }}</label>
-    <div class="input-group">
-        <input id="thumbnail_image" class="form-control" type="text" name="image"
-               value="{{ old('image', $management->image ?? '') }}">
-        <span class="input-group-btn">
-            <a id="image" data-input="thumbnail_image" data-preview="holder" class="btn btn-primary">
-                <i class="fas fa-images"></i>
-                {{ tr('Choose') }}
-            </a>
-        </span>
-    </div>
-    @if ($management->image)
-        <img class="p-2" src="{{ $management->image }}" width="30%" alt="">
-    @endif
-</div>
-<div class="form-group">
     <label for="anons_image" class="mb-2">{{ tr('Leader Image') }}</label>
     <div class="input-group">
         <input id="thumbnail_anons_image" class="form-control" type="text" name="anons_image"
-               value="{{ old('image', $management->anons_image ?? '') }}">
+            value="{{ old('image', $management->anons_image ?? '') }}">
         <span class="input-group-btn">
             <a id="anons_image" data-input="thumbnail_anons_image" data-preview="holder" class="btn btn-primary">
                 <i class="fas fa-images"></i>
@@ -106,22 +89,22 @@ $name = 'name_' . app()->getLocale();
 <div class="form-group">
     <label for="phone">{{ tr('Phone') }}</label>
     <input type="text" class="form-control" name="phone" id="phone"
-           value="{{ old('phone', $management->phone ?? '') }}">
+        value="{{ old('phone', $management->phone ?? '') }}">
 </div>
 <div class="form-group">
     <label for="email">{{ tr('Email') }}</label>
     <input type="email" class="form-control" name="email" id="email"
-           value="{{ old('email', $management->email ?? '') }}">
+        value="{{ old('email', $management->email ?? '') }}">
 </div>
 <div class="form-group">
     <label for="fax">{{ tr('Fax') }}</label>
     <input type="text" class="form-control" name="fax" id="fax"
-           value="{{ old('fax', $management->fax ?? '') }}">
+        value="{{ old('fax', $management->fax ?? '') }}">
 </div>
 <div class="form-group">
     <label for="order">{{ tr('Order') }}</label>
     <input type="number" name="order" class="form-control" id="order"
-           value="{{ old('order', $management->order ?? '50') }}">
+        value="{{ old('order', $management->order ?? '50') }}">
 </div>
 <div class="form-group">
     <label for="status">{{ tr('Status') }}</label>

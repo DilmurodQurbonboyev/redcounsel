@@ -2,7 +2,7 @@
     <a class="brand-link">
         <img src="{{ asset('img/gerb.png') }}" alt="logo">
         <span class="brand-text">
-            {{ MessageService::tr("Red Counsel") }}
+            {{ MessageService::tr('Red Counsel') }}
         </span>
     </a>
     <div class="sidebar">
@@ -10,7 +10,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
                     <a href="{{ route('admin.dashboard') }}"
-                       class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">
+                        class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-home"></i>
                         <p>{{ MessageService::tr('Dashboard') }}</p>
                     </a>
@@ -27,14 +27,14 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="{{ route('users.index') }}"
-                               class="nav-link {{ request()->routeIs('users.*') ? 'active' : '' }}">
+                                class="nav-link {{ request()->routeIs('users.*') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-users"></i>
                                 <p>{{ MessageService::tr('Users') }}</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('authorities.index') }}"
-                               class="nav-link {{ request()->routeIs('authorities.*') ? 'active' : '' }}">
+                                class="nav-link {{ request()->routeIs('authorities.*') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-user-shield"></i>
                                 <p>{{ MessageService::tr('Authorities') }}</p>
                             </a>
@@ -42,9 +42,9 @@
                     </ul>
                 </li>
                 <li
-                    class="nav-item {{ request()->routeIs(['menus.*', 'menus-category.*', 'news.*', 'files.*', 'contacts.*', 'news-category.*', 'photos.*', 'photos-category.*', 'videos.*', 'videos-category.*', 'pages.*', 'pages-category.*', 'answers.*', 'answers-category.*', 'links.*', 'links-category.*', 'useful.*', 'messages.*', 'useful-category.*','regions.*', 'managements-category.*', 'managements.*']) ? 'menu-open' : '' }}">
+                    class="nav-item {{ request()->routeIs(['menus.*', 'menus-category.*', 'news.*', 'files.*', 'contacts.*', 'news-category.*', 'photos.*', 'photos-category.*', 'videos.*', 'videos-category.*', 'pages.*', 'pages-category.*', 'answers.*', 'answers-category.*', 'links.*', 'links-category.*', 'useful.*', 'messages.*', 'useful-category.*', 'regions.*', 'managements-category.*', 'managements.*']) ? 'menu-open' : '' }}">
                     <a
-                        class="nav-link {{ request()->routeIs(['menus.*', 'menus-category.*', 'news.*', 'files.*', 'contacts.*', 'news-category.*', 'photos.*', 'photos-category.*', 'videos.*', 'videos-category.*', 'pages.*', 'pages-category.*', 'answers.*', 'answers-category.*', 'links.*', 'links-category.*', 'useful.*', 'messages.*', 'useful-category.*','regions.*', 'managements-category.*', 'managements.*']) ? 'active' : '' }}">
+                        class="nav-link {{ request()->routeIs(['menus.*', 'menus-category.*', 'news.*', 'files.*', 'contacts.*', 'news-category.*', 'photos.*', 'photos-category.*', 'videos.*', 'videos-category.*', 'pages.*', 'pages-category.*', 'answers.*', 'answers-category.*', 'links.*', 'links-category.*', 'useful.*', 'messages.*', 'useful-category.*', 'regions.*', 'managements-category.*', 'managements.*']) ? 'active' : '' }}">
                         <i class="nav-icon fas fa-sitemap"></i>
                         <p>{{ MessageService::tr('Site Management') }}
                             <i class="right fas fa-angle-left"></i>
@@ -54,7 +54,7 @@
                         <li
                             class="nav-item {{ request()->routeIs('menus.*', 'menus-category.*') ? 'menu-open' : '' }}">
                             <a class="nav-link {{ request()->routeIs('menus.*', 'menus-category.*') ? 'active' : '' }}"
-                               href="javascript:void(0);">
+                                href="javascript:void(0);">
                                 <i class="nav-icon fas fa-bars"></i>
                                 <p>{{ MessageService::tr('Menus') }}
                                     <i class="right fas fa-angle-left"></i>
@@ -63,24 +63,23 @@
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('menus-category.*') ? 'active' : '' }}"
-                                       href="{{ route('menus-category.index') }}">
+                                        href="{{ route('menus-category.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Menu Categories') }}</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('menus.*') ? 'active' : '' }}"
-                                       href="{{ route('menus.index') }}">
+                                        href="{{ route('menus.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Menus') }}</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li
-                            class="nav-item {{ request()->routeIs('news.*', 'news-category.*') ? 'menu-open' : '' }}">
+                        <li class="nav-item {{ request()->routeIs('news.*', 'news-category.*') ? 'menu-open' : '' }}">
                             <a class="nav-link {{ request()->routeIs('news.*', 'news-category.*') ? 'active' : '' }}"
-                               href="javascript:void(0);">
+                                href="javascript:void(0);">
                                 <i class="nav-icon fas fa-newspaper"></i>
                                 <p>{{ MessageService::tr('News') }}
                                     <i class="right fas fa-angle-left"></i>
@@ -89,14 +88,14 @@
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('news-category.*') ? 'active' : '' }}"
-                                       href="{{ route('news-category.index') }}">
+                                        href="{{ route('news-category.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('News Categories') }}</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('news.*') ? 'active' : '' }}"
-                                       href="{{ route('news.index') }}">
+                                        href="{{ route('news.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('News') }}</p>
                                     </a>
@@ -106,7 +105,7 @@
                         <li
                             class="nav-item {{ request()->routeIs('pages.*', 'pages-category.*') ? 'menu-open' : '' }}">
                             <a class="nav-link {{ request()->routeIs('pages.*', 'pages-category.*') ? 'active' : '' }}"
-                               href="javascript:void(0);">
+                                href="javascript:void(0);">
                                 <i class="nav-icon fas fa-file-alt"></i>
                                 <p>{{ MessageService::tr('Pages') }}
                                     <i class="right fas fa-angle-left"></i>
@@ -115,21 +114,21 @@
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('pages-category.*') ? 'active' : '' }}"
-                                       href="{{ route('pages-category.index') }}">
+                                        href="{{ route('pages-category.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Page Categories') }}</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('pages.*') ? 'active' : '' }}"
-                                       href="{{ route('pages.index') }}">
+                                        href="{{ route('pages.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Pages') }}</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li
+                        {{--  <li
                             class="nav-item {{ request()->routeIs('useful.*', 'useful-category.*') ? 'menu-open' : '' }}">
                             <a class="nav-link {{ request()->routeIs('useful.*', 'useful-category.*') ? 'active' : '' }}"
                                href="javascript:void(0);">
@@ -154,10 +153,10 @@
                                     </a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item {{ request()->routeIs('photos.*', 'photos-category.*') ? 'menu-open' : '' }}">
-                            <a
-                                class="nav-link {{ request()->routeIs('photos.*', 'photos-category.*') ? 'active' : '' }}"
+                        </li>  --}}
+                        {{--  <li
+                            class="nav-item {{ request()->routeIs('photos.*', 'photos-category.*') ? 'menu-open' : '' }}">
+                            <a class="nav-link {{ request()->routeIs('photos.*', 'photos-category.*') ? 'active' : '' }}"
                                 href="javascript:void(0);">
                                 <i class="nav-icon fas fa-camera"></i>
                                 <p>{{ MessageService::tr('Photos') }}
@@ -166,8 +165,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a
-                                        class="nav-link {{ request()->routeIs('photos-category.*') ? 'active' : '' }}"
+                                    <a class="nav-link {{ request()->routeIs('photos-category.*') ? 'active' : '' }}"
                                         href="{{ route('photos-category.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Photos Categories') }}</p>
@@ -175,16 +173,17 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('photos.*') ? 'active' : '' }}"
-                                       href="{{ route('photos.index') }}">
+                                        href="{{ route('photos.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Photos') }}</p>
                                     </a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item {{ request()->routeIs('videos.*', 'videos-category.*') ? 'menu-open' : '' }}">
+                        </li>  --}}
+                        <li
+                            class="nav-item {{ request()->routeIs('videos.*', 'videos-category.*') ? 'menu-open' : '' }}">
                             <a class="nav-link {{ request()->routeIs('videos.*', 'videos-category.*') ? 'active' : '' }}"
-                               href="javascript:void(0);">
+                                href="javascript:void(0);">
                                 <i class="nav-icon fas fa-photo-video"></i>
                                 <p>{{ MessageService::tr('Video Gallery') }}
                                     <i class="right fas fa-angle-left"></i>
@@ -193,14 +192,14 @@
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('videos-category.*') ? 'active' : '' }}"
-                                       href="{{ route('videos-category.index') }}">
+                                        href="{{ route('videos-category.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('videos Categories') }}</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('videos.*') ? 'active' : '' }}"
-                                       href="{{ route('videos.index') }}">
+                                        href="{{ route('videos.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Videos') }}</p>
                                     </a>
@@ -208,9 +207,9 @@
                             </ul>
                         </li>
                         <li
-                            class="nav-item {{ request()->routeIs('managements.*','regions.*', 'managements-category.*') ? 'menu-open' : '' }}">
-                            <a class="nav-link {{ request()->routeIs('managements.*','regions.*', 'managements-category.*') ? 'active' : '' }}"
-                               href="javascript:void(0);">
+                            class="nav-item {{ request()->routeIs('managements.*', 'regions.*', 'managements-category.*') ? 'menu-open' : '' }}">
+                            <a class="nav-link {{ request()->routeIs('managements.*', 'regions.*', 'managements-category.*') ? 'active' : '' }}"
+                                href="javascript:void(0);">
                                 <i class="nav-icon fas fa-user-tie"></i>
                                 <p>{{ MessageService::tr('Managements') }}
                                     <i class="right fas fa-angle-left"></i>
@@ -219,21 +218,21 @@
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('managements-category.*') ? 'active' : '' }}"
-                                       href="{{ route('managements-category.index') }}">
+                                        href="{{ route('managements-category.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Management Categories') }}</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('managements.*') ? 'active' : '' }}"
-                                       href="{{ route('managements.index') }}">
+                                        href="{{ route('managements.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Managements') }}</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ request()->routeIs('regions.*') ? 'active' : '' }}"
-                                       href="{{ route('regions.index') }}">
+                                        href="{{ route('regions.index') }}">
                                         <i class="nav-icon fas fa-circle"></i>
                                         <p>{{ MessageService::tr('Regions') }}</p>
                                     </a>
@@ -242,40 +241,38 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('messages.*') ? 'active' : '' }}"
-                               href="{{ route('messages.index') }}">
+                                href="{{ route('messages.index') }}">
                                 <i class="nav-icon fas fa-language"></i>
                                 <p>{{ MessageService::tr('Messages') }}</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('contacts.*') ? 'active' : '' }}"
-                               href="{{ route('contacts.index') }}">
+                                href="{{ route('contacts.index') }}">
                                 <i class="nav-icon fas fa-address-book"></i>
                                 <p>{{ MessageService::tr('Contacts') }}</p>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li
-                    class="nav-item {{ request()->routeIs('authentication-logs.*', 'logs.*') ? 'menu-open' : '' }}">
-                    <a
-                        class="nav-link {{ request()->routeIs(['authentication-logs.*', 'logs.*']) ? 'active' : '' }}">
+                <li class="nav-item {{ request()->routeIs('authentication-logs.*', 'logs.*') ? 'menu-open' : '' }}">
+                    <a class="nav-link {{ request()->routeIs(['authentication-logs.*', 'logs.*']) ? 'active' : '' }}">
                         <i class="nav-icon fas fa-book"></i>
                         <p>{{ MessageService::tr('Logs') }}
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
-                        <li class="nav-item">
+                        {{--  <li class="nav-item">
                             <a href="{{ route('authentication-logs.index') }}"
-                               class="nav-link {{ request()->routeIs('authentication-logs.*') ? 'active' : '' }}">
+                                class="nav-link {{ request()->routeIs('authentication-logs.*') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-circle"></i>
                                 <p>{{ MessageService::tr('Authentification Logs') }}</p>
                             </a>
-                        </li>
+                        </li>  --}}
                         <li class="nav-item">
                             <a href="{{ route('logs.index') }}"
-                               class="nav-link {{ request()->routeIs('logs.*') ? 'active' : '' }}">
+                                class="nav-link {{ request()->routeIs('logs.*') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-circle"></i>
                                 <p>{{ MessageService::tr('Site Logs') }}</p>
                             </a>

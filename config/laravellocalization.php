@@ -2,17 +2,11 @@
 
 return [
     'supportedLocales' => [
-        'uz' => [
-            'name' => 'Ўзбек',
-            'script' => 'Cyrl',
-            'native' => 'Ўз',
-            'regional' => 'uz_UZ',
-        ],
-        'oz' => [
-            'name' => "O'zbek",
+        'en' => [
+            'name' => 'English',
             'script' => 'Latn',
-            'native' => 'O‘z',
-            'regional' => 'uz_UZ',
+            'native' => 'En',
+            'regional' => 'en_GB',
         ],
         'ru' => [
             'name' => 'Русский',
@@ -20,11 +14,17 @@ return [
             'native' => 'Ру',
             'regional' => 'ru_RU',
         ],
-        'en' => [
-            'name' => 'English',
+        'oz' => [
+            'name' => "O'zbek",
             'script' => 'Latn',
-            'native' => 'En',
-            'regional' => 'en_GB',
+            'native' => 'O‘z',
+            'regional' => 'uz_UZ',
+        ],
+        'uz' => [
+            'name' => 'Ўзбек',
+            'script' => 'Cyrl',
+            'native' => 'Ўз',
+            'regional' => 'uz_UZ',
         ],
     ],
     'useAcceptLanguageHeader' => false,

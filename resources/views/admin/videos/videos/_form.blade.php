@@ -1,7 +1,7 @@
 <div class="form-group">
     <label for="lists_category_id">{{ tr('Category') }}</label>
     <select class="form-control select2 @error('lists_category_id') is-invalid @enderror" name="lists_category_id"
-            id="lists_category_id">
+        id="lists_category_id">
         <option value="0">{{ tr('Choose') }}...</option>
         @foreach ($videosCategories as $videoCategory)
             <option value="{{ $videoCategory->id }}"
@@ -10,11 +10,11 @@
         @endforeach
     </select>
     @error('lists_category_id')
-    <div class="text-danger">{{ $message }}</div>
+        <div class="text-danger">{{ $message }}</div>
     @enderror
 </div>
 <div class="card-header p-0 pt-1 border-bottom-0">
-    <x-admin.language-tab/>
+    <x-admin.language-tab />
 </div>
 <div class="tab-content my-tab-content">
     @foreach (Config::get('translatable.locales') as $lang)
@@ -22,25 +22,23 @@
             <div class="form-group">
                 <label for="title_{{ $lang }}">{{ tr('Title') }}</label>
                 <input type="text" name="title_{{ $lang }}"
-                       class="form-control @error('title_' . $lang) is-invalid @enderror" id="title_{{ $lang }}"
-                       value="{{ old('title_' . $lang, $videos->translate($lang)->title ?? '') }}">
+                    class="form-control @error('title_' . $lang) is-invalid @enderror" id="title_{{ $lang }}"
+                    value="{{ old('title_' . $lang, $videos->translate($lang)->title ?? '') }}">
                 @error('title_' . $lang)
-                <div class="text-danger">{{ $message }}</div>
+                    <div class="text-danger">{{ $message }}</div>
                 @enderror
             </div>
-            <x-admin.form.description name="description_{{ $lang }}"
-                                      value="{!! old('description_' . $lang, $videos->translate($lang)->description ?? '') !!}"/>
+            <x-admin.form.description name="description_{{ $lang }}" value="{!! old('description_' . $lang, $videos->translate($lang)->description ?? '') !!}" />
         </div>
     @endforeach
 </div>
 <input type="hidden" class="form-control" name="list_type_id" value="8">
 <div class="row">
-    <div class="form-group col-6">
+    <div class="form-group col-12">
         <label for="video_code">{{ tr('Video Code') }}</label>
-        <input type="text" name="video_code" class="form-control" id="video_code"
-               value="{{ $videos->video_code }}">
+        <input type="text" name="video_code" class="form-control" id="video_code" value="{{ $videos->video_code }}">
     </div>
-    <div class="form-group col-6">
+    {{--  <div class="form-group col-6">
         <label for="video" class="mb-2">{{ tr('Video') }}</label>
         <div class="input-group">
             <input id="thumbnail_video" class="form-control" type="text" name="video" value="{{ $videos->video }}">
@@ -54,9 +52,9 @@
         @if ($videos->video)
             <img class="p-2" src="{{ $videos->video }}" alt="" width="30%">
         @endif
-    </div>
+    </div>  --}}
 </div>
-<div class="form-group">
+{{--  <div class="form-group">
     <label for="image" class="mb-2">{{ tr('Video Image') }}</label>
     <div class="input-group">
         <input id="thumbnail_image" class="form-control" type="text" name="image" value="{{ $videos->image }}">
@@ -70,8 +68,8 @@
     @if ($videos->image)
         <img class="p-2" src="{{ $videos->image }}" alt="" width="30%">
     @endif
-</div>
-<div class="form-group">
+</div>  --}}
+{{--  <div class="form-group">
     <label for="media_type">{{ tr('Video Type') }}</label>
     <select class="custom-select select2" name="media_type" id="media_type">
         <option value="1" {{ old('media_type', $videos->media_type) == '1' ? 'selected' : '' }}>
@@ -86,10 +84,10 @@
         <option value="5" {{ old('media_type', $videos->media_type) == '5' ? 'selected' : '' }}>
             {{ tr('Video from youtube.com') }}</option>
     </select>
-</div>
+</div>  --}}
 <div class="form-group">
     <label for="date">{{ tr('Date') }}</label>
-    <input type="text" class="form-control date" name="date" value="{{ old('date', $videos->date) }}"/>
+    <input type="text" class="form-control date" name="date" value="{{ old('date', $videos->date) }}" />
 </div>
 <div class="form-group">
     <label for="parent_id">{{ tr('Main') }}</label>
@@ -100,7 +98,7 @@
             {{ tr('No') }}</option>
     </select>
 </div>
-<div class="form-group">
+{{--  <div class="form-group">
     <label for="right_menu">{{ tr('Right Menu') }}</label>
     <select class="form-control select2" name="right_menu" id="right_menu">
         <option value="2" {{ old('right_menu', $videos->right_menu) == '2' ? 'selected' : '' }}>
@@ -108,7 +106,7 @@
         <option value="1" {{ old('right_menu', $videos->right_menu) == '1' ? 'selected' : '' }}>
             {{ tr('No') }}</option>
     </select>
-</div>
+</div>  --}}
 <div class="form-group">
     <label for="status">{{ tr('Status') }}</label>
     <select class="form-control select2" name="status" id="status">

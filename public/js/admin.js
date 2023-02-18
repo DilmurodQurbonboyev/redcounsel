@@ -1,10 +1,10 @@
 // Language Tab
-let oz = document.getElementById('oz');
-if (typeof (oz) != 'undefined' && oz != null) {
-    oz.classList.add('active');
-    oz.classList.add('show');
+let en = document.getElementById('en');
+if (typeof (en) != 'undefined' && en != null) {
+    en.classList.add('active');
+    en.classList.add('show');
     $(function () {
-        $("a#lang-oz").addClass("active");
+        $("a#lang-en").addClass("active");
     })
 }
 

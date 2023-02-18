@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\DB;
 use Livewire\Component;
 use App\Models\Lists;
 use Livewire\WithPagination;
+
 class News extends Component
 {
     use WithPagination;

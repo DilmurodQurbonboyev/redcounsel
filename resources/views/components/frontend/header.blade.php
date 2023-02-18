@@ -8,10 +8,9 @@
         </p>
     </div>
     <div class="links" id="links">
-        @foreach($top_menu_tree as $menu)
+        @foreach ($top_menu_tree as $menu)
             @if (!isset($menu['submenus']))
-                <a href="{{ hrefType($menu['link_type'], $menu['link']) }}"
-                   target="{{ targetType($menu['link_type']) }}">
+                <a href="{{ hrefType($menu['link_type'], $menu['link']) }}" target="{{ targetType($menu['link_type']) }}">
                     {{ $menu['title'] ?? '' }}
                 </a>
             @endif
@@ -24,7 +23,7 @@
                         @foreach ($menu['submenus'] as $item)
                             @if (!isset($item['submenus']))
                                 <a href="{{ hrefType($item['link_type'], $item['link']) }}"
-                                   target="{{ targetType($item['link_type']) }}">
+                                    target="{{ targetType($item['link_type']) }}">
                                     {{ $item['title'] ?? '' }}
                                 </a>
                             @endif
@@ -35,18 +34,16 @@
         @endforeach
     </div>
     <div class="dropdown languagePicker">
-        <button
-            style="font-size: 1.6rem!important; align-items: center; display: flex; justify-content: space-between;"
-            class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
-            data-bs-toggle="dropdown" aria-expanded="false">
+        <button style="font-size: 1.6rem!important; align-items: center; display: flex; justify-content: space-between;"
+            class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
             {{ LaravelLocalization::getCurrentLocaleNative() }}
         </button>
-        <ul style="font-size: 1.6rem!important;" class="dropdown-menu"
-            aria-labelledby="dropdownMenuButton1">
-            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+        <ul style="font-size: 1.6rem!important;" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                 <li>
                     <a class="dropdown-item" hreflang="{{ $localeCode }}"
-                       href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                        href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
                         {{ $properties['native'] }}
                     </a>
                 </li>
@@ -59,10 +56,10 @@
         <div></div>
     </div>
     <div class="res-menu" id="links">
-        @foreach($top_menu_tree as $menu)
+        @foreach ($top_menu_tree as $menu)
             @if (!isset($menu['submenus']))
                 <a href="{{ hrefType($menu['link_type'], $menu['link']) }}"
-                   target="{{ targetType($menu['link_type']) }}">
+                    target="{{ targetType($menu['link_type']) }}">
                     {{ $menu['title'] ?? '' }}
                 </a>
             @endif
@@ -72,7 +69,7 @@
                     <div style="font-size: 1.5rem!important;" class="dropdown-content dropLink">
                         @foreach ($menu['submenus'] as $item)
                             <a href="{{ hrefType($item['link_type'], $item['link']) }}"
-                               target="{{ targetType($item['link_type']) }}">
+                                target="{{ targetType($item['link_type']) }}">
                                 {{ $item['title'] ?? '' }}
                             </a>
                         @endforeach

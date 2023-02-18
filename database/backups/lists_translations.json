@@ -38,5 +38,485 @@
         "pdf_title": null,
         "pdf": null,
         "locale": "en"
+    },
+    {
+        "id": 5,
+        "lists_id": 2,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 6,
+        "lists_id": 2,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 7,
+        "lists_id": 2,
+        "title": "Опыт",
+        "description": "Мы стремимся к самым высоким стандартам качества, эффективности и честности абсолютно во всем, что мы делаем",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 8,
+        "lists_id": 2,
+        "title": "EXCELLENCE",
+        "description": "We strive for the highest standards of quality, efficiency and integrity in absolutely everything we do.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 9,
+        "lists_id": 3,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 10,
+        "lists_id": 3,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 11,
+        "lists_id": 3,
+        "title": "Партнерство",
+        "description": "Настоящий успех - это стремление к достижению взаимовыгодных целей с нашими клиентами, сотрудниками и поставщиками.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 12,
+        "lists_id": 3,
+        "title": "PARTNERSHIP",
+        "description": "True success is about striving for mutually-beneficial goals with our clients, our people and our suppliers.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 13,
+        "lists_id": 4,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 14,
+        "lists_id": 4,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 15,
+        "lists_id": 4,
+        "title": "Страсть",
+        "description": "Мы смелые и гибкие, настойчивые в достижении целей и всегда стремимся к победе.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 16,
+        "lists_id": 4,
+        "title": "PASSION",
+        "description": "We are a bold, agile business with a strong sense of direction and a relentless desire to win.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 17,
+        "lists_id": 5,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 18,
+        "lists_id": 5,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 19,
+        "lists_id": 5,
+        "title": "О нас",
+        "description": "Red Counsel является независимой юридической фирмой в Узбекистане, предоставляющей юридические услуги разнообразной группе клиентов, включая иностранных и отечественных корпоративных клиентов, учреждения и частные лица. Red Counsel была создана юристами с большим опытом работы в областях практики фирмы с целью оказания юридических услуг клиентам как единая команда, основанная на концепции фирмы. Фирма применяет современные западные стандарты оказания юридических/финансовых услуг с акцентом на оперативность, высокое качество и эффективность.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 20,
+        "lists_id": 5,
+        "title": "About",
+        "description": "Red Counsel has been set-up by a core team of highly experienced legal and financial professionals. Red Counsel is an independent law firm in Uzbekistan providing legal services to a diverse group of clients including foreign and domestic corporate clients, institutions and private parties. Red Counsel was established by the lawyers with extensive experience in the practice areas of the firm, for the purpose of rendering legal services to clients as an integral team based on the firm's concept. The firm applies up-to-date western standards of legal/financial services with an emphasis on expediency, high quality, and effectiveness.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 21,
+        "lists_id": 6,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 22,
+        "lists_id": 6,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 23,
+        "lists_id": 6,
+        "title": "Lexwwork",
+        "description": "Red Counsel в настоящее время планирует стать членом Lexwork International, Independent Law Firms, ассоциации, существующей уже более 30 лет, с офисами-членами, в частности, в самых важных государствах Европы, Северной и Южной Америки и Азии. В настоящее время Red Counsel фокусируется на работе через Lexwork в 20 европейских странах, в Северной и Южной Америке, Китае и других странах Азии.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 24,
+        "lists_id": 6,
+        "title": "Lexwwork",
+        "description": "Red Counsel is currently trying to be a member of Lexwork International, Independent Law Firms, an association which has been in existence for over 30 years, with member offices inter alia in the most important states of Europe, North and South America, and Asia. Currently, Red Counsel focuses on via Lexwork in 20 European countries, in North and South America, China and other countries in Asia.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 25,
+        "lists_id": 7,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 26,
+        "lists_id": 7,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 27,
+        "lists_id": 7,
+        "title": "Представительство в Лондоне",
+        "description": "Первоочередной задачей нашего лондонского офиса является создание прочной сети партнерских отношений, участие в возникающих бизнес-инициативах и сотрудничество с трастом. Нашей ключевой задачей является установление связей с британскими и европейскими инвесторами, которые стремятся инвестировать в Узбекистан, и постоянное предоставление профессиональных консультационных услуг, ориентированных на бизнес. Мы фокусируемся на консультировании прямых инвесторов в форме представительств, филиалов, совместных предприятий и дочерних компаний. Наиболее важным аспектом нашей консультационной работы является проведение due diligence с участием узбекских финансовых банков и компаний.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 28,
+        "lists_id": 7,
+        "title": "London Desk",
+        "description": "Our London desk's the first priority is to build a strong network of partnerships, engage emergent business initiatives, and collaborate with the trust. Our key is to tie-up with the UK and European investors who seek to invest in Uzbekistan, and continuously offering business-oriented professional consulting services. We focus on advising direct investors in the form of representative offices, branch offices, joint ventures and subsidiaries. Most importantly, due diligence involving Uzbek financial banks and companies constitute a focal point of our advice work.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 29,
+        "lists_id": 8,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 30,
+        "lists_id": 8,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 31,
+        "lists_id": 8,
+        "title": "Представительство в ОАЭ",
+        "description": "Наше представительство в ОАЭ стремится стать мостом между арабскими странами и Центральной Азией в качестве надежного делового партнера и уверенного инвестиционного консультанта для создания своего бизнеса на новых рынках. Кроме того, мы уделяем особое внимание созданию прочной сети партнерских отношений, привлечению новых бизнес-инициатив и сотрудничеству с трастовыми компаниями. Наше представительство в ОАЭ оказывает помощь не только арабским компаниям в связи с их финансовыми начинаниями в Узбекистане, но и узбекским клиентам в их деловой активности. Наша компетентная команда обладает обширными лингвистическими и культурными знаниями и многолетним опытом работы с узбекско-арабскими и международными компаниями и инвестициями. Это гарантирует нашим партнерам по контракту всестороннюю юридическую и финансовую помощь и успешное завершение их узбекско-арабских проектов.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 32,
+        "lists_id": 8,
+        "title": "UAE Desk",
+        "description": "Our UAE desk aims to be the bridge between the Arabian countries and Central Asia as a trusted business partner and confident investment advisor to establish their businesses in new markets. Additionally, we focus on building a strong network of partnerships, engage emergent business initiatives, and collaborate with the trust. Our UAE desk assists not only Arabian companies in connection with their financial endeavours in Uzbekistan, but rather also Uzbek clients with their business activities. Our competent team has comprehensive linguistic and cultural expertise and long-standing experience with Uzbek-Arabian and international company activities and investments. This guarantees our contract partners comprehensive legal and financial assistance and the successful completion of their Uzbek-Arabian projects",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 33,
+        "lists_id": 9,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 34,
+        "lists_id": 9,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 35,
+        "lists_id": 9,
+        "title": "Банки и финансы",
+        "description": "Мы работаем в финансовой сфере в Узбекистане с обширным опытом во всех секторах экономики, специализируемся на банковских и кредитных продуктах, приобретении банков, обеспеченных кредитных сделках, экспортно-импортном финансировании, долговом и акционерном финансировании, регулировании финансовых рынков, финансировании недвижимости, структурном финансировании, финансовом лизинге и других связанных проектах.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 36,
+        "lists_id": 9,
+        "title": "Banking and Finance",
+        "description": "We have a leading finance practice in Uzbekistan with a breadth of experience across all economic sectors, focusing on banking and credit products, bank acquisitions, secured lending transactions, export-import finance, debt and equity finance, financial markets regulation, real estate finance, structured finance, financial leasing, and other related projects.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 37,
+        "lists_id": 10,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 38,
+        "lists_id": 10,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 39,
+        "lists_id": 10,
+        "title": "Корпоративное право и M&A",
+        "description": "Практика корпоративного права и M&A Red Counsel представляет и работает с клиентами по всему спектру корпоративных сделок, включая M&A, прямые инвестиции, ценные бумаги и корпоративное управление. Наши юридические консультации всегда сопровождаются компетентным налоговым консультированием на протяжении всех корпоративных проектов, включая корпоративную реструктуризацию, M&A и проекты due diligence.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 40,
+        "lists_id": 10,
+        "title": "Corporate and M&A",
+        "description": "Red Counsel's corporate and M&A practice represent and works with clients on the full range of corporate transactions, including M&A, private equity, securities and corporate governance. Our legal advice is always accompanied with competent tax consultancy throughout the whole corporate projects, including corporate restructuring, M&A, and due diligence projects.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 41,
+        "lists_id": 11,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 42,
+        "lists_id": 11,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 43,
+        "lists_id": 11,
+        "title": "Недвижимость, строительство и планирование",
+        "description": "Мы проводим Due Diligence объектов, помогаем в оформлении прав собственности, выявляем залоги и обременения, помогаем в надлежащем оформлении сделки, а также в восстановлении кадастрового учета. Мы всегда рады оказать вам поддержку при продаже заложенного имущества, выселении жильцов и любом изменении целевого назначения недвижимости. Мы предоставляем полный комплекс юридических услуг (корпоративное планирование, оптимизация налогообложения, валютное регулирование, контрактное законодательство, банковское законодательство, коммерческое законодательство и т.д.) в ходе реализации EPC-контракта до сдачи завода в эксплуатацию Владельцу проекта",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 44,
+        "lists_id": 11,
+        "title": "Real Estate, Constructing & Planning",
+        "description": "We carry out Due Diligence of targets, help with title clearance, identify liens and encumbrances, help with proper formalisation of a deal, as well as restoration of inventory records. We are always pleased to support you in sale of mortgaged assets, eviction of estate and any alteration to property's specified purpose.",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 45,
+        "lists_id": 12,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 46,
+        "lists_id": 12,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 47,
+        "lists_id": 12,
+        "title": "Исследовательская группа (RG) Red Counsel",
+        "description": "Red Counsel RG охватывает практически все области законодательства своих юрисдикций, и наши услуги включают не только юридические консультации, но и юридические исследования и анализ, практическое планирование и поддержку структурирования, практическую реализацию и выполнение проекта и определенных юридических действий, таких как due diligence и юридические исследования, юридический анализ законов/подзаконных актов, составление отчетов о \"красных флажках\", составление сложных деловых контрактов, получение лицензий и других видов разрешений, представление интересов наших клиентов в государственных органах и судах",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 48,
+        "lists_id": 12,
+        "title": "Red Counsel Research Group (RG)",
+        "description": "Red Counsel RG covers practically all areas of laws of its jurisdictions and our services include not only legal consultancy services but also legal research and analysis, practical planning and structuring support, practical implementation and performance of the project and certain legal actions, such as due diligence and legal research, legal analyzing laws/sub-legal acts, drafting red flag reports, drafting complex business contracts, receiving licenses and other sorts of authorizations, representing our clients before state authorities and courts",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
+    },
+    {
+        "id": 49,
+        "lists_id": 13,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "oz"
+    },
+    {
+        "id": 50,
+        "lists_id": 13,
+        "title": null,
+        "description": null,
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "uz"
+    },
+    {
+        "id": 51,
+        "lists_id": 13,
+        "title": "Соответствие & риск",
+        "description": "Наши юристы-эксперты работали в государственном регуляторе коммерческих банков и многочисленных финансовых институтов. Наша команда регулярно консультирует клиентов по вопросам соблюдения требований бизнеса, а также предлагает сильную экспертизу в области борьбы со взяточничеством, отмыванием денег и финансированием терроризма. Наши юристы могут проконсультировать по правилам и нормам в юрисдикции Узбекистана",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "ru"
+    },
+    {
+        "id": 52,
+        "lists_id": 13,
+        "title": "Compliance & Risk",
+        "description": "We have expert lawyers worked at the state regulator on commercial banks, and numerous financial institutions. Our team regularly advises clients on matters of business compliance, and offers strong anti-bribery and anti-money laundering and counter-terrorist financing expertise. Our lawyers can advise on the rules and regulations in Uzbekistan jurisdiction",
+        "content": null,
+        "pdf_title": null,
+        "pdf": null,
+        "locale": "en"
     }
 ]

@@ -5,10 +5,10 @@ use Astrotomic\Translatable\Validation\RuleFactory;
 return [
 
     'locales' => [
+        'en',
+        'ru',
         'oz',
         'uz',
-        'ru',
-        'en'
     ],
 
     'locale_separator' => '-',

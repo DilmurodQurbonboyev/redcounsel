@@ -1,13 +1,13 @@
 <footer>
-    <div class="footer-one" data-aos="zoom-in-up">
+    <div class="footer-one">
         <div class="footer-logo">
             <a href="/">{{ tr('Red Counsel') }}</a>
         </div>
         <div class="footer-links">
-            @foreach($top_menu_tree as $menu)
+            @foreach ($top_menu_tree as $menu)
                 @if (!isset($menu['submenus']))
                     <a href="{{ hrefType($menu['link_type'], $menu['link']) }}"
-                       target="{{ targetType($menu['link_type']) }}">{{ $menu['title'] ?? '' }}</a>
+                        target="{{ targetType($menu['link_type']) }}">{{ $menu['title'] ?? '' }}</a>
                 @endif
                 @if (isset($menu['submenus']))
                     <div class="footer-drop dropdown dropella">
@@ -18,7 +18,7 @@
                             @foreach ($menu['submenus'] as $item)
                                 @if (!isset($item['submenus']))
                                     <a href="{{ hrefType($item['link_type'], $item['link']) }}"
-                                       target="{{ targetType($item['link_type']) }}">{{ $item['title'] ?? '' }}</a>
+                                        target="{{ targetType($item['link_type']) }}">{{ $item['title'] ?? '' }}</a>
                                 @endif
                             @endforeach
                         </div>

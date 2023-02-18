@@ -60,17 +60,21 @@ class SiteController extends Controller
             ->where('status', 2)
             ->paginate(12);
 
-        return view('frontend.management', compact('leaders', 'category'));
+        $experience = Lists::getList()->findOrFail(16);
+        $unique = Lists::getList()->findOrFail(17);
+        $teamPractise = ListCategory::query()->findOrFail(12);
+
+        return view('frontend.management', compact([
+            'leaders',
+            'category',
+            'experience',
+            'unique',
+            'teamPractise'
+        ]));
     }
 
     public function category($slug)
     {
-        $categories = ListCategory::query()
-            ->where('list_type_id', 1)
-            ->where('parent_id', '!=', null)
-            ->where('status', 2)
-            ->with('lists')
-            ->get();
         $category = ListCategory::query()
             ->where('slug', $slug)
             ->where('status', 2)
@@ -97,11 +101,8 @@ class SiteController extends Controller
             case ListType::PHOTO:
                 $view = 'frontend.photoGallery';
                 break;
-            case ListType::ANSWER:
-                $view = 'frontend.accordion';
-                break;
             case ListType::VIDEO:
-                $view = 'frontend.videoGallery';
+                $view = 'frontend.videogallery';
                 break;
             case ListType::USEFUL:
                 $view = 'frontend.link';
@@ -118,14 +119,14 @@ class SiteController extends Controller
             ->orderBy('lists.order')
             ->paginate(12);
 
-        return view($view, compact('lists', 'category', 'categories'));
+        return view($view, compact('lists', 'category'));
     }
 
     public function news($slug)
     {
         $list = Lists::getList()->where('lists.slug', $slug)->first();
         if (is_null($list)) {
-            return view('frontend.errors.404');
+            abort(404);
         }
         $listKey = 'news_' . $list->id;
         if (!session()->has($listKey)) {
@@ -171,12 +172,6 @@ class SiteController extends Controller
     {
         $contact = Contact::withTranslation()->first();
         return view('frontend.contact', compact('contact'));
-    }
-
-    public function rss(): Response
-    {
-        $posts = Lists::query()->where('list_type_id', ListType::NEWS)->latest()->get();
-        return response()->view('frontend.rss', compact('posts'))->header('Content-Type', 'text/xml');
     }
 
     public function about()

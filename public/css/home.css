@@ -1,23 +1,25 @@
-
-
 /* nav section begin */
-.nav{
+.nav {
     position: relative;
-    
+
 }
-.carousel-inner img{
+
+.carousel-inner img {
     height: 50vh;
     background-size: cover;
     background-position: center;
     object-fit: cover;
 }
-.carousel-inner h5{
+
+.carousel-inner h5 {
     font-size: 3rem;
 }
-.carousel-inner p{
+
+.carousel-inner p {
     font-size: 2rem
 }
-.nav::after{
+
+.nav::after {
     content: '';
     position: absolute;
     top: 0;
@@ -35,81 +37,94 @@
 
 
 /* header icons right/left begin*/
-    header i.fa{
-        position: absolute;
-        z-index: 3;
-        top: 50%;
-        border-radius: 50%;
-        padding: 1rem 1.5rem;
-        cursor: pointer;
-        background-color: rgba(0, 0, 0, .6);
-        color: rgba(255, 255, 255, .9);
-    }
-    header i.fa-angle-left{
-        left: 1rem;
-    }
-    header i.fa-angle-right{
-        right: 1rem;
-    }
+header i.fa {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    border-radius: 50%;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, .9);
+}
+
+header i.fa-angle-left {
+    left: 1rem;
+}
+
+header i.fa-angle-right {
+    right: 1rem;
+}
+
 /* header icons right/left end*/
 
 /* exp begin */
-    .exp{
-        padding-top: 20px;
-        background-image: url('../images/image11.png');
-        background-repeat: no-repeat;
-        background-position: 70% 35%;
-        padding: 5% 10%;
-        z-index: -1;
-        filter:contrast();
-    }
-    .exp h2, .exp h3{
-        text-transform: uppercase;
-    }
-    .exp h2{
-        color: gold;
-        margin: -2rem 0 2rem 0;
-        font-size: 5rem;
-    }
-    .exp h3{
-        font-size: 3rem;
-    }
-    .exp p{
-        font-size: 1.6rem;
-        margin: 4rem 0;
-        border-radius: 15px;
-        padding: 5px;
-        background: linear-gradient(45deg,rgb(228, 227, 184),rgb(243, 198, 195));
-        color: rgb(49, 48, 48);
-        max-width: 600px;
-        font-weight: 600;
-    }
-    .exp button{
-        color: white;
-        transition: .5s;
-        font-weight: bold;
-        color: black;
-        background-color: rgb(216, 186, 15);
-        padding: 1.2rem; 
-        color: #fff;
-        text-transform: uppercase;
-        border-radius: 10px;
-        font-size: 1.4rem;
-    }
-    .exp button:hover{
-        background-color: rgb(197, 173, 38);
-        color: white;
-    }
+.exp {
+    padding-top: 20px;
+    background-image: url('../img/image11.png');
+    background-repeat: no-repeat;
+    background-position: 70% 35%;
+    padding: 5% 10%;
+    z-index: -1;
+    filter: contrast();
+}
+
+.exp h2,
+.exp h3 {
+    text-transform: uppercase;
+}
+
+.exp h2 {
+    color: gold;
+    margin: -2rem 0 2rem 0;
+    font-size: 5rem;
+}
+
+.exp h3 {
+    font-size: 3rem;
+}
+
+.exp p {
+    font-size: 1.6rem;
+    margin: 4rem 0;
+    border-radius: 15px;
+    padding: 5px;
+    background: linear-gradient(45deg, rgb(228, 227, 184), rgb(243, 198, 195));
+    color: rgb(49, 48, 48);
+    max-width: 600px;
+    font-weight: 600;
+}
+
+.exp a {
+    color: white;
+    transition: .5s;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(216, 186, 15);
+    padding: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.exp a:hover {
+    background-color: rgb(197, 173, 38);
+    color: white;
+}
+
 /* exp end */
 
 /* Service begin */
-.service-header{
+.service-header {
     font-size: 6rem;
     position: relative;
     display: inline;
     margin: 0 10%;
 }
-.service-header::after{
+
+.service-header::after {
     content: '';
     position: absolute;
     bottom: -.5rem;
@@ -118,26 +133,32 @@
     background-color: #c0392b;
     height: .3rem;
 }
-.services{
+
+.services {
     padding: 1rem 10%;
 }
-#service{
+
+#service {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 9rem 0;
 }
-.service-text{
+
+.service-text {
     max-width: 40%;
     position: relative;
 }
-.service-text:nth-child(2n){
+
+.service-text:nth-child(2n) {
     margin-left: 3rem;
 }
-.service-text:nth-child(2n-1){
+
+.service-text:nth-child(2n-1) {
     margin-right: 3rem;
 }
-.service-text::before{
+
+.service-text::before {
     content: attr(data-num);
     position: absolute;
     z-index: -222;
@@ -150,17 +171,20 @@
     color: #000;
     opacity: .1;
 }
-.service-text h2{
+
+.service-text h2 {
     font-size: 3.5rem;
 }
-.service-text p{
+
+.service-text p {
     font-size: 1.5rem;
     opacity: .7;
     margin: 3rem 0 5rem;
     letter-spacing: 1.5px;
     line-height: 2.2;
 }
-.service-text a{
+
+.service-text a {
     color: #c0392b;
     font-weight: 600;
     border: 2px solid #c0392b;
@@ -170,8 +194,18 @@
     font-size: 1.6rem;
     line-height: 1;
 }
-.service-text a:hover{
+
+.service-text a:hover {
     background-color: #c0392b;
     color: #fff;
 }
+
+.two {
+    flex-direction: row-reverse;
+}
+
+.one {
+    flex-direction: row;
+}
+
 /* Service end */

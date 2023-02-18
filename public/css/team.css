@@ -1,41 +1,47 @@
-:root{
+:root {
     --main: #111;
     --back: #eee;
 }
 
-.team-bg{
+.team-bg {
     background-image: url('https://images.squarespace-cdn.com/content/v1/58b71e6f6a4963b4cc2c78b8/1489772515122-UN7330JHHHNB5ZL3GB0D/Banner_Group-of-Business-People.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     filter: brightness(30%);
     height: 50vh;
-    
+
 }
-.ourTeam{
+
+.ourTeam {
     position: absolute;
     top: 40%;
     left: 10%;
     color: white;
 }
-.ourTeam h2{
+
+.ourTeam h2 {
     padding: 10px;
     font-size: 35px;
 }
-.ourTeam p{
+
+.ourTeam p {
     padding: 10px;
     font-size: 15px;
 }
-.ourTeam a{
- color: white;
- text-decoration: none;
- padding-right: 10px;
- 
+
+.ourTeam a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+
 }
-.ourTeam a:hover{
+
+.ourTeam a:hover {
     color: white;
 }
-.team-one{
+
+.team-one {
     min-height: 100%;
     color: #000;
     display: flex;
@@ -44,7 +50,8 @@
     padding: 5rem 10%;
     align-items: center;
 }
-#team-one{
+
+#team-one {
     padding: 6rem 5rem;
     min-height: 550px;
     width: 450px;
@@ -56,9 +63,10 @@
     border: 1px solid rgba(255, 255, 255, 0.447);
     border-radius: 20px;
     transition: 1s ease;
-    font-size: 1.7rem!important;
+    font-size: 1.7rem !important;
 }
-.team-main{
+
+.team-main {
     margin-top: 50px;
     padding: 10px;
     position: relative;
@@ -68,31 +76,35 @@
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(206, 204, 204);
     display: flex;
-    
-    
+
+
 }
 
-.malumotlar{
+.malumotlar {
     display: flex;
     justify-content: space-between;
 }
 
-.team-main p{
- padding: 10px;
- font-size: 1.6rem;
+.team-main p {
+    padding: 10px;
+    font-size: 1.6rem;
 }
-.team-main h3{
+
+.team-main h3 {
     padding: 10px;
 }
-.team-main img{
+
+.team-main img {
     padding: 5px;
     border-radius: 10px;
+    object-fit: cover;
 }
- 
-#team-one:first-child{
+
+#team-one:first-child {
     margin-right: 4rem;
 }
-#team-one::before{
+
+#team-one::before {
     content: '';
     position: absolute;
     top: -20px;
@@ -100,42 +112,47 @@
     left: -20px;
     right: -20px;
     box-shadow: inset 25px 25px 15px rgba(0, 0, 0, .05),
-                inset -25px -25px 15px rgba(255, 255, 255, .05),
-                15px 15px 15px rgba(0, 0, 0, .05),
-                -15px -15px 15px rgba(255, 255, 255, .05);
+        inset -25px -25px 15px rgba(255, 255, 255, .05),
+        15px 15px 15px rgba(0, 0, 0, .05),
+        -15px -15px 15px rgba(255, 255, 255, .05);
     border-radius: 20px;
     z-index: 12345;
 }
-#team-one h2{
+
+#team-one h2 {
     font-size: 4rem;
     overflow: hidden;
 }
-#team-one p{
+
+#team-one p {
     margin: 3rem 0;
     overflow: hidden;
 }
 
-.practice-rest{
+.practice-rest {
     max-width: 50%;
-    
+
 }
-.practice{
+
+.practice {
     display: flex;
     padding: 0 10%;
     padding-left: calc(10% + 5rem);
     justify-content: space-between;
     align-items: center;
     height: 30vh;
-    
+
 }
-#practice{
+
+#practice {
     overflow-y: hidden;
     margin-bottom: 2rem;
     position: relative;
     height: 100%;
     font-size: 1.4rem;
 }
-#text{
+
+#text {
     background-color: #c03a2b;
     color: #fff;
     display: flex;
@@ -145,7 +162,8 @@
     transition: .5s ease;
     margin-bottom: 1rem;
 }
-#text span{
+
+#text span {
     cursor: pointer;
     transition: .6s ease;
     height: 20px;
@@ -154,30 +172,37 @@
     font-weight: 600;
     overflow: hidden;
 }
-#text span.plusActive{
+
+#text span.plusActive {
     transform: rotate(135deg);
 }
-#text p{
+
+#text p {
     max-width: 90%;
 }
-#submenu{
+
+#submenu {
     height: 0;
     overflow: hidden;
     position: relative;
     transition: height .5s ease;
 }
-#submenu.active{
+
+#submenu.active {
     height: 300px;
 }
-.pagination li{
+
+.pagination li {
     font-size: 1.7rem;
-    
+
 }
-.pagination{
-   justify-content: center;
-   margin-top: 50px;
+
+.pagination {
+    justify-content: center;
+    margin-top: 50px;
 }
-.pagination a{
+
+.pagination a {
     color: red;
     padding-left: 20px;
     padding-right: 20px;

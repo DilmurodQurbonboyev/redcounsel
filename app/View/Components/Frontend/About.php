@@ -15,11 +15,10 @@ class About extends Component
      */
     public function __construct()
     {
-        $this->about = Lists::getList()
-            ->where('lists.list_type_id', 5)
-            ->where('lists.lists_category_id',  2)
+        $this->about = Lists::query()
+            ->where('list_type_id', 5)
+            ->where('lists_category_id',  2)
             ->first();
-        dd($this->about);
     }
 
     /**
