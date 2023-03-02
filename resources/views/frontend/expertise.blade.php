@@ -38,7 +38,7 @@
         <div class="main-block">
             @foreach ($expertises as $list)
                 <div class="{{ $loop->first ? 'active' : '' }}" id="main">
-                    <img src="{{ $list->body_image ?? '' }}" alt="">
+                    <img src="{{ asset($list->body_image) ?? '' }}" alt="">
                     <div class="textbox">
                         <p class="service{{ $loop->iteration }}_p">
                             {{ $list->description ?? '' }}

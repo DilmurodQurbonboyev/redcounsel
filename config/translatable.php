@@ -8,7 +8,6 @@ return [
         'en',
         'ru',
         'oz',
-        'uz',
     ],
 
     'locale_separator' => '-',
@@ -19,7 +18,7 @@ return [
 
     'use_property_fallback' => true,
 
-    'fallback_locale' => 'oz',
+    'fallback_locale' => 'en',
 
     'translation_model_namespace' => null,
 

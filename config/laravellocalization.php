@@ -20,12 +20,6 @@ return [
             'native' => 'O‘z',
             'regional' => 'uz_UZ',
         ],
-        'uz' => [
-            'name' => 'Ўзбек',
-            'script' => 'Cyrl',
-            'native' => 'Ўз',
-            'regional' => 'uz_UZ',
-        ],
     ],
     'useAcceptLanguageHeader' => false,
     'hideDefaultLocaleInURL' => false,

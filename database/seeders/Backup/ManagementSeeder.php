@@ -25,7 +25,6 @@ class ManagementSeeder extends Seeder
                 "m_category_id" => $management->m_category_id,
                 "slug" => $management->slug,
                 "image" => $management->image,
-                "region_id" => $management->region_id,
                 "anons_image" => $management->anons_image,
                 "phone" => $management->phone,
                 "email" => $management->email,

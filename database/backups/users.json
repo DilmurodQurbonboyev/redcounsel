@@ -1,12 +1,22 @@
 [
     {
-        "id": 1,
-        "name": "Dilmurod",
-        "email": "dilmurodqurbonboyev9820@gmail.com",
-        "email_verified_at": null,
-        "password": "$2y$10$me3HwAwVQJYWcPNyIhLONem.DmBqO89DcQJxU/Bpl/thIvZMCUlVK",
-        "remember_token": null,
-        "created_at": "2023-01-31 23:22:44",
-        "updated_at": "2023-01-31 23:22:44"
+      "id": 1,
+      "name": "Dilmurod",
+      "email": "dilmurodqurbonboyev9820@gmail.com",
+      "email_verified_at": null,
+      "password": "$2y$10$me3HwAwVQJYWcPNyIhLONem.DmBqO89DcQJxU/Bpl/thIvZMCUlVK",
+      "remember_token": null,
+      "created_at": "2023-01-31 13:22:44",
+      "updated_at": "2023-01-31 13:22:44"
+    },
+    {
+      "id": 3,
+      "name": "Bobur",
+      "email": "icebob1216@mail.ru",
+      "email_verified_at": null,
+      "password": "$2y$10$sa6dCn7JlkPKT/7VDKk3CeJpGVI2CrzEcPUYaLbMkf.rXeZOrnqfy",
+      "remember_token": null,
+      "created_at": "2023-02-21 10:03:16",
+      "updated_at": "2023-02-21 10:03:16"
     }
-]
+  ]

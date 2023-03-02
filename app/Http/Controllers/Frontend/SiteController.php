@@ -45,7 +45,6 @@ class SiteController extends Controller
             ->orderBy('lists.order')
             ->paginate(12);
         return view('frontend.news-list', compact('news', 'category', 'categories'));
-
     }
 
     public function leader($slug)
@@ -54,6 +53,7 @@ class SiteController extends Controller
             ->where('slug', $slug)
             ->where('status', 2)
             ->first();
+
         $leaders = Management::query()
             ->where('m_category_id', $category->id)
             ->orderBy('order')

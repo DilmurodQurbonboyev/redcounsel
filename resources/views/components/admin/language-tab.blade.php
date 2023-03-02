@@ -11,8 +11,4 @@
         <a class="nav-link" id="lang-oz" data-toggle="pill" href="#oz" role="tab" aria-controls="oz"
             aria-selected="true">O‘zb</a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link" id="lang-uz" data-toggle="pill" href="#uz" role="tab" aria-controls="uz"
-            aria-selected="false">Ўзб</a>
-    </li>
 </ul>

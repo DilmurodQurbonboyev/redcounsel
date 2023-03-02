@@ -26,7 +26,7 @@
         @foreach ($lists as $list)
             <div class="{{ $list->title ?? '' }}" id="inter" data-text="{{ $list->title ?? '' }}">
                 <div class="inter-img" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <img src="{{ $list->anons_image ?? '' }}" alt="">
+                    <img src="{{ asset($list->anons_image) ?? '' }}" alt="">
                 </div>
                 <div class="lex-text" id="text" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <h2>{{ $list->title ?? '' }}</h2>

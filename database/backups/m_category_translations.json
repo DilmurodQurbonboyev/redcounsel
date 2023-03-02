@@ -8,14 +8,6 @@
         "updated_at": "2022-09-28 16:06:10"
     },
     {
-        "id": 2,
-        "m_category_id": 1,
-        "title": "Раҳбарият",
-        "locale": "uz",
-        "created_at": "2022-09-28 16:06:10",
-        "updated_at": "2022-09-28 16:06:10"
-    },
-    {
         "id": 3,
         "m_category_id": 1,
         "title": "Руководство",

@@ -68,7 +68,7 @@
                                 <div class="owl-carousel owl-theme">
                                     <div class="item">
                                         <div class="owl-detail-img">
-                                            <img width="100%" src="{{ $list->anons_image ?? '' }}" alt="alter ego">
+                                            <img width="100%" src="{{ asset($list->anons_image) ?? '' }}" alt="alter ego">
                                         </div>
                                     </div>
                                 </div>

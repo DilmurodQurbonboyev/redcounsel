@@ -31,7 +31,7 @@
 
     @foreach ($leaders as $leader)
         <div class="team-main" data-aos="fade-up" data-aos-duration="2000">
-            <img width="200px" src="{{ $leader->anons_image ?? '' }}" alt="">
+            <img width="200px" src="{{ asset($leader->anons_image) ?? '' }}" alt="">
             <div class="info-team">
                 <h3>{{ $leader->leader ?? '' }}</h3>
                 <p>{{ $leader->title ?? '' }}</p>

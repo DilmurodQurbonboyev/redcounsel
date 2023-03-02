@@ -1,218 +1,218 @@
 [
     {
-        "id": 1,
-        "list_category_id": 1,
-        "title": "Yangiliklar",
-        "locale": "oz"
+      "id": 1,
+      "list_category_id": 1,
+      "title": "Yangiliklar",
+      "locale": "oz"
     },
     {
-        "id": 2,
-        "list_category_id": 1,
-        "title": "Янгиликлар",
-        "locale": "uz"
+      "id": 3,
+      "list_category_id": 1,
+      "title": "Новости",
+      "locale": "ru"
     },
     {
-        "id": 3,
-        "list_category_id": 1,
-        "title": "Новости",
-        "locale": "ru"
+      "id": 4,
+      "list_category_id": 1,
+      "title": "News",
+      "locale": "en"
     },
     {
-        "id": 4,
-        "list_category_id": 1,
-        "title": "News",
-        "locale": "en"
+      "id": 5,
+      "list_category_id": 2,
+      "title": "Kompaniya haqida",
+      "locale": "oz"
     },
     {
-        "id": 5,
-        "list_category_id": 2,
-        "title": "Kompaniya haqida",
-        "locale": "oz"
+      "id": 7,
+      "list_category_id": 2,
+      "title": "О компании",
+      "locale": "ru"
     },
     {
-        "id": 6,
-        "list_category_id": 2,
-        "title": null,
-        "locale": "uz"
+      "id": 8,
+      "list_category_id": 2,
+      "title": "About the company",
+      "locale": "en"
     },
     {
-        "id": 7,
-        "list_category_id": 2,
-        "title": null,
-        "locale": "ru"
+      "id": 9,
+      "list_category_id": 3,
+      "title": "Fotogalereya",
+      "locale": "oz"
     },
     {
-        "id": 8,
-        "list_category_id": 2,
-        "title": null,
-        "locale": "en"
+      "id": 11,
+      "list_category_id": 3,
+      "title": null,
+      "locale": "ru"
     },
     {
-        "id": 9,
-        "list_category_id": 3,
-        "title": "Fotogalereya",
-        "locale": "oz"
+      "id": 12,
+      "list_category_id": 3,
+      "title": null,
+      "locale": "en"
     },
     {
-        "id": 10,
-        "list_category_id": 3,
-        "title": null,
-        "locale": "uz"
+      "id": 13,
+      "list_category_id": 4,
+      "title": "Videogalereya",
+      "locale": "oz"
     },
     {
-        "id": 11,
-        "list_category_id": 3,
-        "title": null,
-        "locale": "ru"
+      "id": 15,
+      "list_category_id": 4,
+      "title": "Videogalereya",
+      "locale": "ru"
     },
     {
-        "id": 12,
-        "list_category_id": 3,
-        "title": null,
-        "locale": "en"
+      "id": 16,
+      "list_category_id": 4,
+      "title": "Videogalereya",
+      "locale": "en"
     },
     {
-        "id": 13,
-        "list_category_id": 4,
-        "title": "Videogalereya",
-        "locale": "oz"
+      "id": 17,
+      "list_category_id": 5,
+      "title": "Global",
+      "locale": "oz"
     },
     {
-        "id": 14,
-        "list_category_id": 4,
-        "title": null,
-        "locale": "uz"
+      "id": 19,
+      "list_category_id": 5,
+      "title": "Глобал",
+      "locale": "ru"
     },
     {
-        "id": 15,
-        "list_category_id": 4,
-        "title": null,
-        "locale": "ru"
+      "id": 20,
+      "list_category_id": 5,
+      "title": "International",
+      "locale": "en"
     },
     {
-        "id": 16,
-        "list_category_id": 4,
-        "title": null,
-        "locale": "en"
+      "id": 21,
+      "list_category_id": 6,
+      "title": "Biz haqimizda",
+      "locale": "oz"
     },
     {
-        "id": 17,
-        "list_category_id": 5,
-        "title": null,
-        "locale": "oz"
+      "id": 23,
+      "list_category_id": 6,
+      "title": "О нас",
+      "locale": "ru"
     },
     {
-        "id": 18,
-        "list_category_id": 5,
-        "title": null,
-        "locale": "uz"
+      "id": 24,
+      "list_category_id": 6,
+      "title": "About us",
+      "locale": "en"
     },
     {
-        "id": 19,
-        "list_category_id": 5,
-        "title": "Глобал",
-        "locale": "ru"
+      "id": 25,
+      "list_category_id": 7,
+      "title": "Bizning xizmatlar",
+      "locale": "oz"
     },
     {
-        "id": 20,
-        "list_category_id": 5,
-        "title": "International",
-        "locale": "en"
+      "id": 27,
+      "list_category_id": 7,
+      "title": "Наши услуги",
+      "locale": "ru"
     },
     {
-        "id": 21,
-        "list_category_id": 6,
-        "title": "Biz haqimizda",
-        "locale": "oz"
+      "id": 28,
+      "list_category_id": 7,
+      "title": "Our services",
+      "locale": "en"
     },
     {
-        "id": 22,
-        "list_category_id": 6,
-        "title": null,
-        "locale": "uz"
+      "id": 29,
+      "list_category_id": 8,
+      "title": "Ekspertiza",
+      "locale": "oz"
     },
     {
-        "id": 23,
-        "list_category_id": 6,
-        "title": "О нас",
-        "locale": "ru"
+      "id": 31,
+      "list_category_id": 8,
+      "title": "Экспертиза",
+      "locale": "ru"
     },
     {
-        "id": 24,
-        "list_category_id": 6,
-        "title": "About us",
-        "locale": "en"
+      "id": 32,
+      "list_category_id": 8,
+      "title": "Expertise",
+      "locale": "en"
     },
     {
-        "id": 25,
-        "list_category_id": 7,
-        "title": "Bizning xizmatlar",
-        "locale": "oz"
+      "id": 33,
+      "list_category_id": 9,
+      "title": "Banner",
+      "locale": "oz"
     },
     {
-        "id": 26,
-        "list_category_id": 7,
-        "title": null,
-        "locale": "uz"
+      "id": 35,
+      "list_category_id": 9,
+      "title": "Баннер",
+      "locale": "ru"
     },
     {
-        "id": 27,
-        "list_category_id": 7,
-        "title": "Наши услуги",
-        "locale": "ru"
+      "id": 36,
+      "list_category_id": 9,
+      "title": "Banner",
+      "locale": "en"
     },
     {
-        "id": 28,
-        "list_category_id": 7,
-        "title": "Our services",
-        "locale": "en"
+      "id": 37,
+      "list_category_id": 10,
+      "title": "Tajriba",
+      "locale": "oz"
     },
     {
-        "id": 29,
-        "list_category_id": 8,
-        "title": "Ekspertiza",
-        "locale": "oz"
+      "id": 39,
+      "list_category_id": 10,
+      "title": "Опыт",
+      "locale": "ru"
     },
     {
-        "id": 30,
-        "list_category_id": 8,
-        "title": null,
-        "locale": "uz"
+      "id": 40,
+      "list_category_id": 10,
+      "title": "Experience",
+      "locale": "en"
     },
     {
-        "id": 31,
-        "list_category_id": 8,
-        "title": "Экспертиза",
-        "locale": "ru"
+      "id": 41,
+      "list_category_id": 11,
+      "title": "Noyob Jamoa",
+      "locale": "oz"
     },
     {
-        "id": 32,
-        "list_category_id": 8,
-        "title": "Expertise",
-        "locale": "en"
+      "id": 43,
+      "list_category_id": 11,
+      "title": "Уникальная команда",
+      "locale": "ru"
     },
     {
-        "id": 33,
-        "list_category_id": 9,
-        "title": "Banner",
-        "locale": "oz"
+      "id": 44,
+      "list_category_id": 11,
+      "title": "Unique Team",
+      "locale": "en"
     },
     {
-        "id": 34,
-        "list_category_id": 9,
-        "title": null,
-        "locale": "uz"
+      "id": 45,
+      "list_category_id": 12,
+      "title": "Jamoa Amaliyoti",
+      "locale": "oz"
     },
     {
-        "id": 35,
-        "list_category_id": 9,
-        "title": "Баннер",
-        "locale": "ru"
+      "id": 47,
+      "list_category_id": 12,
+      "title": "Командные практики",
+      "locale": "ru"
     },
     {
-        "id": 36,
-        "list_category_id": 9,
-        "title": "Banner",
-        "locale": "en"
+      "id": 48,
+      "list_category_id": 12,
+      "title": "Team Practices",
+      "locale": "en"
     }
-]
+  ]

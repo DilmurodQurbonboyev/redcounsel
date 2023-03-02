@@ -39,7 +39,7 @@
             @foreach ($services as $service)
                 <div class="over-type {{ $loop->odd ? 'one' : '' }}" id="overview">
                     <div class="over-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                        <img src="{{ $service->anons_image ?? '' }}" alt="{{ $service->title ?? '' }}">
+                        <img src="{{ asset($service->anons_image) ?? '' }}" alt="{{ $service->title ?? '' }}">
                     </div>
                     <div class="over-text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <h1 class="over1_h1">{{ $service->title ?? '' }}</h1>

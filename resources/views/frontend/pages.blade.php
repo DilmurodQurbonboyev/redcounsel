@@ -36,7 +36,7 @@
         @foreach ($lists as $list)
             <a href="{{ route('pages', $list->id) }}">
                 <div class="newsMain" data-aos="fade-up">
-                    <img class="mainImg" src="{{ $list->anons_image ?? '' }}" alt="{{ $list->title ?? '' }}">
+                    <img class="mainImg" src="{{ asset($list->anons_image) ?? '' }}" alt="{{ $list->title ?? '' }}">
                     <p class="newsInfo">{{ $list->title ?? '' }}</p>
                     <div class="newsBottom">
                         <p>
