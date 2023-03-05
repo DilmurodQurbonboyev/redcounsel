@@ -2,7 +2,7 @@
 $title = tr('seo');
 $description = tr("Red Counsel's team has substantial experience in providing full-fledged legal support to its clients with high standard of legal advice and tailor-made business solutions. More than 15 years of successful experience in practicing law, a thorough knowledge of the local business environment, and a clear understanding of clients' needs, puts Red Counsel in the right place to add real value to projects of our clients at all stages, from initiation to execution.");
 $image = asset('img/logo-red.png');
-$site_name = 'https://redcounsel.net';
+$site_name = 'https://redcounsel.uz';
 $current_url = url()->current();
 ?>
 
